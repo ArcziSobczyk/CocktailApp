@@ -5,6 +5,9 @@
 	<string name="recipe">Przepisy</string>
 	<string name="funFact">Ciekawostki</string>
 	<string name="exit">Wyjdź</string>
+	<string name="mustHaveForCocktails">Niezbędnik barmana przed imprezą</string>
+	<string name="mustHaveStuff">Podstawowy sprzęt dla barmana</string>
+	<string name="mostImportantRecipies">Najważniejsze przepisy</string>
 	
 	
 	<string name="margharita">Margarita</string>

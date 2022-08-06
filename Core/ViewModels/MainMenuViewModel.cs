@@ -31,7 +31,7 @@ namespace Core.ViewModels
         }
         private async Task GoToFunFact()
         {
-            await NavigationService.Navigate<RecipiesViewModel>();
+            await NavigationService.Navigate<FunFactViewModel>();
         }
         #endregion
     }

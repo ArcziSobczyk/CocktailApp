@@ -64,6 +64,7 @@
   <ItemGroup>
     <Compile Include="MainApplication.cs" />
     <Compile Include="Setup.cs" />
+    <Compile Include="Views\FunFactView.cs" />
     <Compile Include="Views\MainMenuView.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -125,6 +126,11 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\layout_cocktail.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\layout_fun_fact.xml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>

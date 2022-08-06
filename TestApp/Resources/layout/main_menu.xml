@@ -4,32 +4,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-    <RelativeLayout
-        android:id="@+id/upper"
-		android:layout_width="match_parent"
+    <TextView
+        android:id="@+id/exploreTitle"
+        android:layout_alignParentTop="true"
+		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
-        android:orientation="horizontal">
-        <ImageButton
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-            android:layout_margin="5dp"
-            android:src="@android:drawable/ic_menu_more"/>
-        <TextView
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-            android:layout_centerInParent="true"
-            android:textSize="20sp"
-            android:text="@string/explore"/>
-        <ImageButton
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-            android:layout_alignParentRight="true"
-            android:layout_margin="5dp"
-            android:src="@android:drawable/ic_menu_search"/>
-    </RelativeLayout>
+        android:layout_centerInParent="true"
+        android:layout_margin="10dp"
+        android:textSize="25sp"
+        android:text="@string/explore"/>
     <LinearLayout
         android:id="@+id/midLane"
-        android:layout_below="@+id/upper"
+        android:layout_below="@+id/exploreTitle"
         android:layout_above="@+id/footer"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -48,27 +34,17 @@
             android:layout_height="0dp"
             android:layout_margin="5dp"
             android:layout_weight="1"
-            android:text="@string/mustKnown"/>
+            android:text="@string/mustKnown"
+            app:MvxBind="Click FunFactCommand"/>
     </LinearLayout>
-    <LinearLayout
+    <TextView
         android:id="@+id/footer"
         android:layout_alignParentBottom="true"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:weightSum="7"
-        android:orientation="horizontal">
-        <ImageButton
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:layout_margin="5dp"
-            android:src="@android:drawable/ic_menu_info_details"/>
-        <TextView
-            android:layout_width="0dp"
-            android:layout_weight="5"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:layout_gravity="center"
-            android:text="Copyrights 2022"/>
-    </LinearLayout>
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:autoSizeMaxTextSize="20sp"
+        android:layout_gravity="center"
+        android:text="Copyrights 2022"/>
 </RelativeLayout>
