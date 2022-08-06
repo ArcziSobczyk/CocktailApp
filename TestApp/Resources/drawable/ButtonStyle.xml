@@ -1,0 +1,33 @@
+﻿<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<item android:state_pressed="false" android:state_enabled="true">
+		<layer-list>
+			<item android:right="0dp" android:top="0dp">
+				<shape>
+					<solid android:color="@color/button"/>
+				</shape>
+			</item>
+			<item android:bottom="0dp" android:left="0dp">
+				<shape>
+					<padding android:bottom="10dp" android:left="10dp" android:right="10dp" android:top="10dp"/>
+				</shape>
+			</item>
+		</layer-list>
+	</item>
+
+	<item android:state_pressed="true">
+		<layer-list>
+			<item android:right="0dp" android:top="0dp">
+				<shape>
+					<solid android:color="@color/pressedButton"/>
+				</shape>
+			</item>
+			<item android:bottom="0dp" android:left="0dp">
+				<shape>
+					<padding android:bottom="10dp" android:left="10dp" android:right="10dp" android:top="10dp"/>
+				</shape>
+			</item>
+		</layer-list>
+	</item>
+	
+</selector>

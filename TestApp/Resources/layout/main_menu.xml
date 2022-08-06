@@ -3,7 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/main">
     <TextView
         android:id="@+id/exploreTitle"
         android:layout_alignParentTop="true"
@@ -28,6 +29,7 @@
             android:layout_margin="5dp"
             android:layout_weight="1"
             android:text="@string/recipe"
+            style="@style/buttonStyle"
             app:MvxBind="Click RecipiesCommand"/>
         <Button
             android:layout_width="match_parent"
@@ -35,6 +37,7 @@
             android:layout_margin="5dp"
             android:layout_weight="1"
             android:text="@string/mustKnown"
+            style="@style/buttonStyle"
             app:MvxBind="Click FunFactCommand"/>
     </LinearLayout>
     <TextView
