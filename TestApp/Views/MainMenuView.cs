@@ -8,12 +8,12 @@ using MvvmCross.Platforms.Android.Views;
 namespace TestApp.Views
 {
     [Activity(Label = "@string/app_name", Theme = "@style/AppTheme", MainLauncher = true)]
-    public class FirstView : MvxActivity<FirstViewModel>
+    public class MainMenuView : MvxActivity<MainMenuViewModel>
     {
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
-            SetContentView(Resource.Layout.activity_main);
+            SetContentView(Resource.Layout.main_menu);
         }
     }
 }
