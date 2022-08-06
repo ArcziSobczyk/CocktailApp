@@ -7870,34 +7870,37 @@ namespace TestApp
 			public const int recipe = 2131558471;
 			
 			// aapt resource value: 0x7F0D0048
-			public const int search_menu_title = 2131558472;
+			public const int recipies = 2131558472;
 			
 			// aapt resource value: 0x7F0D0049
-			public const int sexOnTheBeach = 2131558473;
+			public const int search_menu_title = 2131558473;
 			
 			// aapt resource value: 0x7F0D004A
-			public const int sour = 2131558474;
+			public const int sexOnTheBeach = 2131558474;
 			
 			// aapt resource value: 0x7F0D004B
-			public const int status_bar_notification_info_overflow = 2131558475;
+			public const int sour = 2131558475;
 			
 			// aapt resource value: 0x7F0D004C
-			public const int strong = 2131558476;
+			public const int status_bar_notification_info_overflow = 2131558476;
 			
 			// aapt resource value: 0x7F0D004D
-			public const int summary_collapsed_preference_list = 2131558477;
+			public const int strong = 2131558477;
 			
 			// aapt resource value: 0x7F0D004E
-			public const int sweet = 2131558478;
+			public const int summary_collapsed_preference_list = 2131558478;
 			
 			// aapt resource value: 0x7F0D004F
-			public const int v7_preference_off = 2131558479;
+			public const int sweet = 2131558479;
 			
 			// aapt resource value: 0x7F0D0050
-			public const int v7_preference_on = 2131558480;
+			public const int v7_preference_off = 2131558480;
 			
 			// aapt resource value: 0x7F0D0051
-			public const int whiskySour = 2131558481;
+			public const int v7_preference_on = 2131558481;
+			
+			// aapt resource value: 0x7F0D0052
+			public const int whiskySour = 2131558482;
 			
 			static String()
 			{

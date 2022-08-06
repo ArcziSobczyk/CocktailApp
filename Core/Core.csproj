@@ -9,4 +9,19 @@
     <PackageReference Include="MvvmCross" Version="8.0.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Compile Update="Resources\Recipies.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Recipies.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Resources\Recipies.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Recipies.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
 </Project>

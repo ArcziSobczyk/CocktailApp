@@ -10,5 +10,7 @@ namespace Core.ViewModels
         {
             NavigationService.Close(this);
         }
+
+
     }
 }

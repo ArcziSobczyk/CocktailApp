@@ -12,14 +12,13 @@ using System.Text;
 
 namespace TestApp.Views
 {
-    [Activity(Label = "MargharitaView")]
+    [Activity(Label = "@string/recipe")]
     public class CocktailView : MvxActivity
     {
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.layout_cocktail);
-            // Create your application here
         }
     }
 }
