@@ -4,6 +4,7 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
+using Core.ViewModels;
 using MvvmCross.Platforms.Android.Views;
 using System;
 using System.Collections.Generic;
@@ -13,7 +14,7 @@ using System.Text;
 namespace TestApp.Views
 {
     [Activity(Label = "@string/recipe")]
-    public class CocktailView : MvxActivity
+    public class CocktailView : MvxActivity<CocktailViewModel>
     {
         protected override void OnCreate(Bundle savedInstanceState)
         {

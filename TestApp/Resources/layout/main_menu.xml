@@ -49,5 +49,5 @@
         android:layout_margin="10dp"
         android:autoSizeMaxTextSize="20sp"
         android:layout_gravity="center"
-        android:text="Copyrights 2022"/>
+        android:text="All rights reserved © 2022"/>
 </RelativeLayout>

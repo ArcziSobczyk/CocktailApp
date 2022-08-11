@@ -61,6 +61,60 @@ namespace Core.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        internal static string cubaLibreDescription {
+            get {
+                return ResourceManager.GetString("cubaLibreDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 40 ml białego rumu.
+        /// </summary>
+        internal static string cubaLibreIngredient1 {
+            get {
+                return ResourceManager.GetString("cubaLibreIngredient1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 100-150 ml Coca-Cola.
+        /// </summary>
+        internal static string cubaLibreIngredient2 {
+            get {
+                return ResourceManager.GetString("cubaLibreIngredient2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 3 ćwiartki limonki.
+        /// </summary>
+        internal static string cubaLibreIngredient3 {
+            get {
+                return ResourceManager.GetString("cubaLibreIngredient3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Do szklanki typu long wrzuć cząstki limonki, zgnieć mudlerem. Następnie zasyp szkło kostkami lodu, wlej rum i Coca-Colę..
+        /// </summary>
+        internal static string cubaLibreRecipe {
+            get {
+                return ResourceManager.GetString("cubaLibreRecipe", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Cuba Libre.
+        /// </summary>
+        internal static string cubaLibreTitle {
+            get {
+                return ResourceManager.GetString("cubaLibreTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Drink margarita pochodzi z Meksyku. Jego nazwa prawdopodobnie wzięła się od imienia kobiety, dla której został przygotowany po raz pierwszy. To pyszny, orzeźwiający napój najczęściej przygotowywany z dodatkiem cytryny. Można go również podawać z innymi owocami lub sokami owocowymi - szczególną popularnością cieszy się wersja truskawkowa. Ważnym elementem podania Margarity jest crustowanie brzegu szklanki, w której podaje się koktajl..
         /// </summary>
         internal static string margharitaDescription {
@@ -120,6 +174,141 @@ namespace Core.Resources {
         internal static string margharitaTitle {
             get {
                 return ResourceManager.GetString("margharitaTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Podobno ten mentolowy koktajl ma już ponad 400 lat. Pochodzi z Kuby – nie bez powodu więc jego smak przywodzi na myśl pełne słońca plaże i szum Morza Karaibskiego. Legendy mówią, że mojito ewoluowało z napoju, którym raczyli się angielscy korsarze, w tym słynny kapitan Drake – rumu z trzciny cukrowej połączonego z cukrem i cytrusami. Inni historycy twierdzą z kolei, że czymś podobnym raczyli się kubańscy niewolnicy..
+        /// </summary>
+        internal static string mohitoDescription {
+            get {
+                return ResourceManager.GetString("mohitoDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 50 ml białego rumu.
+        /// </summary>
+        internal static string mohitoIngredient1 {
+            get {
+                return ResourceManager.GetString("mohitoIngredient1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Pół limonki + ćwiartka do dekoracji.
+        /// </summary>
+        internal static string mohitoIngredient2 {
+            get {
+                return ResourceManager.GetString("mohitoIngredient2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 2 łyżeczki cukru trzcinowego.
+        /// </summary>
+        internal static string mohitoIngredient3 {
+            get {
+                return ResourceManager.GetString("mohitoIngredient3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Kilka listków mięty.
+        /// </summary>
+        internal static string mohitoIngredient4 {
+            get {
+                return ResourceManager.GetString("mohitoIngredient4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 25 ml wody gazowanej.
+        /// </summary>
+        internal static string mohitoIngredient5 {
+            get {
+                return ResourceManager.GetString("mohitoIngredient5", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Limonkę wyszorować, pokroić na ćwiartki i wrzucić do szklanki typu long drink Zasypać cukrem i dokładnie ugnieść. Następnie dodać listki mięty i znowu ugnieść. Do połowy wysokości szklanki dodać lód, a następnie rum i znów lód. Zamieszać. Na wierzch dodać wodę gazowaną i delikatnie zmieszać. Szklankę udekorować limonką i listkami mięty..
+        /// </summary>
+        internal static string mohitoRecipe {
+            get {
+                return ResourceManager.GetString("mohitoRecipe", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Mojito.
+        /// </summary>
+        internal static string mohitoTitle {
+            get {
+                return ResourceManager.GetString("mohitoTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Przepis na napój, w którym dominuje kokosowa nuta, pochodzi z Karaibów, a dokładniej z Portoryko. Wyspa ta kusi rajskimi plażami i idealnymi warunkami do wypoczynku, a widok turystów sączących eleganckie drinki jest tu normą..
+        /// </summary>
+        internal static string pinaColadaDescription {
+            get {
+                return ResourceManager.GetString("pinaColadaDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 40 ml białego rumu.
+        /// </summary>
+        internal static string pinaColadaIngredient1 {
+            get {
+                return ResourceManager.GetString("pinaColadaIngredient1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 20 ml mleczka kokosowego / syropu kokosowego / likieru kokosowego.
+        /// </summary>
+        internal static string pinaColadaIngredient2 {
+            get {
+                return ResourceManager.GetString("pinaColadaIngredient2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 90 ml soku ananasowego.
+        /// </summary>
+        internal static string pinaColadaIngredient3 {
+            get {
+                return ResourceManager.GetString("pinaColadaIngredient3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to splash mleka.
+        /// </summary>
+        internal static string pinaColadaIngredient4 {
+            get {
+                return ResourceManager.GetString("pinaColadaIngredient4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Do shakera wlewamy wszystkie składniki, energicznie wstrząsamy. Przelewamy do szklanki typu hurricane i gotowe..
+        /// </summary>
+        internal static string pinaColadaRecipe {
+            get {
+                return ResourceManager.GetString("pinaColadaRecipe", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Pina Colada.
+        /// </summary>
+        internal static string pinaColadaTitle {
+            get {
+                return ResourceManager.GetString("pinaColadaTitle", resourceCulture);
             }
         }
     }

@@ -8,4 +8,5 @@
 	<color name="white">#ffffff</color>
 	<color name="main">#dcdadc</color>
 	<color name="black">#000000</color>
+	<color name="roundCell">#69a4b0</color>
 </resources>

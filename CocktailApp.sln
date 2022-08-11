@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32328.378
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApp", "TestApp\TestApp.csproj", "{8D9E2BAA-5519-4BC6-A042-06843AD00811}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CocktailApp", "TestApp\CocktailApp.csproj", "{8D9E2BAA-5519-4BC6-A042-06843AD00811}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{9F606E73-B7A7-4910-8A5A-627FFD93B3FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core", "Core\Core.csproj", "{9F606E73-B7A7-4910-8A5A-627FFD93B3FC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

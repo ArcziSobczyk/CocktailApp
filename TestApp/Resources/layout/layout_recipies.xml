@@ -8,12 +8,13 @@
     <ScrollView
         android:id="@+id/scrollView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_above="@+id/backButton">
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:layout_margin="7dp"
             android:elevation="3dp">
             <Button
                 android:layout_width="match_parent"
@@ -21,28 +22,32 @@
                 android:layout_margin="5dp"
                 android:textSize="20dp"
                 style="@style/buttonStyle"
-                android:text="@string/margharita"/>
+                android:text="@string/margharita"
+                app:MvxBind="Click MargharitaCommand"/>
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
                 android:textSize="20dp"
                 style="@style/buttonStyle"
-                android:text="@string/mohito"/>
+                android:text="@string/mohito"
+                app:MvxBind="Click MohitoCommand"/>
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
                 android:textSize="20dp"
                 style="@style/buttonStyle"
-                android:text="@string/cubaLibre"/>
+                android:text="@string/cubaLibre"
+                app:MvxBind="Click CubaLibreCommand"/>
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
                 android:textSize="20dp"
                 style="@style/buttonStyle"
-                android:text="@string/pinaColada"/>
+                android:text="@string/pinaColada"
+                app:MvxBind="Click PinaColadaCommand"/>
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -63,7 +68,7 @@
                 android:layout_margin="5dp"
                 android:textSize="20dp"
                 style="@style/buttonStyle"
-                android:text="@string/pornstar"/>
+                android:text="@string/pornstarMartini"/>
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -98,13 +103,6 @@
                 android:layout_margin="5dp"
                 android:textSize="20dp"
                 style="@style/buttonStyle"
-                android:text="@string/espressoMartini"/>
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="5dp"
-                android:textSize="20dp"
-                style="@style/buttonStyle"
                 android:text="@string/daiquiri"/>
             <Button
                 android:layout_width="match_parent"
@@ -129,9 +127,4 @@
                 android:text="@string/sexOnTheBeach"/>
         </LinearLayout>
     </ScrollView>
-    <Button
-        android:id="@+id/backButton"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/scrollView"/>
 </RelativeLayout>

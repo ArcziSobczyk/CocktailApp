@@ -5,6 +5,7 @@
 	<string name="recipies">Przepisy</string>
 	<string name="recipe">Przepis</string>
 	<string name="funFact">Ciekawostki</string>
+	<string name="infos">Informacje</string>
 	<string name="exit">Wyjdź</string>
 	<string name="mustHaveForCocktails">Niezbędnik barmana przed imprezą</string>
 	<string name="mustHaveStuff">Podstawowy sprzęt dla barmana</string>
@@ -17,7 +18,7 @@
 	<string name="pinaColada">Pina Colada</string>
 	<string name="whiskySour">Whisky Sour</string>
 	<string name="cosmopolitan">Cosmopolitan</string>
-	<string name="pornstarMartini">Pornstar</string>
+	<string name="pornstarMartini">Pornstar Martini</string>
 	<string name="negroni">Negroni</string>
 	<string name="espressoMartini">Espresso Martini</string>
 	<string name="moscowMule">Moscow Mule</string>

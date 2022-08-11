@@ -13,14 +13,13 @@ using System.Text;
 
 namespace TestApp.Views
 {
-    [Activity(Label = "RecipiesView")]
+    [Activity(Label = "@string/recipies")]
     public class RecipiesView : MvxActivity<RecipiesViewModel>
     {
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.layout_recipies);
-            // Create your application here
         }
     }
 }

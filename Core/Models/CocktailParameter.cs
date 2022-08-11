@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Core.Models
 {
-    public class CocktailModel : BaseModel
+    public class CocktailParameter
     {
         public string CocktailName { get; set; }
         public string CocktailDescription { get; set; }
@@ -15,5 +15,6 @@ namespace Core.Models
         public string CocktailIngredient4 { get; set; }
         public string CocktailIngredient5 { get; set; }
         public string CocktailIngredient6 { get; set; }
+
     }
 }
