@@ -232,6 +232,132 @@ namespace Core.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        internal static string daiquiriDescription {
+            get {
+                return ResourceManager.GetString("daiquiriDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 40 ml jasnego rumu.
+        /// </summary>
+        internal static string daiquiriIngredient1 {
+            get {
+                return ResourceManager.GetString("daiquiriIngredient1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 20 ml soku z limonki.
+        /// </summary>
+        internal static string daiquiriIngredient2 {
+            get {
+                return ResourceManager.GetString("daiquiriIngredient2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 10 ml syropu cukrowego.
+        /// </summary>
+        internal static string daiquiriIngredient3 {
+            get {
+                return ResourceManager.GetString("daiquiriIngredient3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Daiquiri.
+        /// </summary>
+        internal static string daiquiriTitle {
+            get {
+                return ResourceManager.GetString("daiquiriTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Wszystkie składniki wlej do shakera pełnego lodu i energicznie wstrząśnij. Tak przygotowany koktajl przelej poprzez double-strain do schłodzonego kieliszka koktajlowego..
+        /// </summary>
+        internal static string daqiuiriRecipe {
+            get {
+                return ResourceManager.GetString("daqiuiriRecipe", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Espresso Martini jest nazywany przez barmanów współczesnym klasykiem, czyli koktajlem znanym i pitym w barach na całym świecie, bazującym na szeroko dostępnych składnikach z wystandaryzowaną i znaną recepturą. Skomponowany został w latach 90. przez londyńskiego guru barowego Dicka Bradsella, który w dużej części odpowiada za to, co dziś pijamy wieczorową porą..
+        /// </summary>
+        internal static string espressoMartiniDescription {
+            get {
+                return ResourceManager.GetString("espressoMartiniDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 50 ml wódki.
+        /// </summary>
+        internal static string espressoMartiniIngredient1 {
+            get {
+                return ResourceManager.GetString("espressoMartiniIngredient1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 25 ml likieru Kahlua.
+        /// </summary>
+        internal static string espressoMartiniIngredient2 {
+            get {
+                return ResourceManager.GetString("espressoMartiniIngredient2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to filiżanka espresso.
+        /// </summary>
+        internal static string espressoMartiniIngredient3 {
+            get {
+                return ResourceManager.GetString("espressoMartiniIngredient3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 15 ml syropu cukrowego.
+        /// </summary>
+        internal static string espressoMartiniIngredient4 {
+            get {
+                return ResourceManager.GetString("espressoMartiniIngredient4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Składniki wlej do shakare i energicznie wstrząśnij. Tak przygotowany koktajl przelej do schłodzonego kieliszka koktajlowego poprzez double-strain..
+        /// </summary>
+        internal static string espressoMartiniRecipe {
+            get {
+                return ResourceManager.GetString("espressoMartiniRecipe", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Espresso Martini.
+        /// </summary>
+        internal static string espressoMartiniTitle {
+            get {
+                return ResourceManager.GetString("espressoMartiniTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        internal static string etr {
+            get {
+                return ResourceManager.GetString("etr", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Drink Manhattan w dziejach sztuki barmańskiej zapisał się jako pierwszy drink z wermutem oraz wielki poprzednik dwóch innych klasyków: Martineza i Martini. Choć lista drinków z whiskey jest długa, Manhattan zajmuje na niej wyjątkowe miejsce. Dlaczego? Bez niego nie powstałby słynny drink Martini kojarzony z przygodami Jamesa Bonda..
         /// </summary>
         internal static string manhattanDescription {
@@ -475,6 +601,69 @@ namespace Core.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Jako że o Negronim po raz pierwszy usłyszano już w 1919 roku, drink ten niedawno obchodził swoje stulecie istnienia. A jak powstał? Legenda głosi, że pewnego dnia, pewnemu włoskiemu hrabiemu znudziło się spożywanie ciągle tego samego mocnego drinku alkoholowego (campari + czerwony wermut) i nakazał swojemu barmanowi, aby ten przygotował mu jakiś specjalny koktajl. Ów barman wyszedł z inicjatywą dodania do istniejącego już przepisu uncję ginu i tak powstał koktajl, który z czasem odziedziczył nazwę po słynny [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string negroniDescription {
+            get {
+                return ResourceManager.GetString("negroniDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 30 ml gin.
+        /// </summary>
+        internal static string negroniIngredient1 {
+            get {
+                return ResourceManager.GetString("negroniIngredient1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 30 ml Rosso Vermuth.
+        /// </summary>
+        internal static string negroniIngredient2 {
+            get {
+                return ResourceManager.GetString("negroniIngredient2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 30 ml Campari.
+        /// </summary>
+        internal static string negroniIngredient3 {
+            get {
+                return ResourceManager.GetString("negroniIngredient3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to zest ze skórki pomarańczy.
+        /// </summary>
+        internal static string negroniIngredient4 {
+            get {
+                return ResourceManager.GetString("negroniIngredient4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Gin, vermuth oraz Campari wlej do szklanicy pełnej lodu. Wymieszaj do czasu dobrego schłodzenia, następnie przelej zawartość do szklanki typu short pełnej lodu. Na koniec wyciśnij zest oraz wrzuć go do koktajlu..
+        /// </summary>
+        internal static string negroniRecipe {
+            get {
+                return ResourceManager.GetString("negroniRecipe", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Negroni.
+        /// </summary>
+        internal static string negroniTitle {
+            get {
+                return ResourceManager.GetString("negroniTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to .
         /// </summary>
         internal static string oldFashionedDescription {
@@ -597,6 +786,141 @@ namespace Core.Resources {
         internal static string pinaColadaTitle {
             get {
                 return ResourceManager.GetString("pinaColadaTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Pornstar Martini drink, który zawdzięcza swoją popularność połączeniu wódki, soku z limonki i przecieru z marakui. Pamiętaj, że jeżeli nie posiadasz w domu musu z marakui użyj świeżego, soczystego miąższu z owocu marakui, który dodasz do drinka. Marakuja sprawia, że nasz drink jest niezwykle orzeźwiający i czuć w nim posmak kwasowości..
+        /// </summary>
+        internal static string pornStarMartiniDescription {
+            get {
+                return ResourceManager.GetString("pornStarMartiniDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 60 ml wódki waniliowej / 45 ml wódki i 15 ml syropu waniliowego.
+        /// </summary>
+        internal static string pornstarMartiniIngredient1 {
+            get {
+                return ResourceManager.GetString("pornstarMartiniIngredient1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 15 ml puree z marakui lub syrop.
+        /// </summary>
+        internal static string pornstarMartiniIngredient2 {
+            get {
+                return ResourceManager.GetString("pornstarMartiniIngredient2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 20 ml soku z limonki.
+        /// </summary>
+        internal static string pornstarMartiniIngredient3 {
+            get {
+                return ResourceManager.GetString("pornstarMartiniIngredient3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 20 ml passoa.
+        /// </summary>
+        internal static string pornstarMartiniIngredient4 {
+            get {
+                return ResourceManager.GetString("pornstarMartiniIngredient4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 40 ml champagne.
+        /// </summary>
+        internal static string pornstarMartiniIngredient5 {
+            get {
+                return ResourceManager.GetString("pornstarMartiniIngredient5", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Dodaj wszystkie składniki poza szampanem do shakera, wstrząśnij z lodem i przelej do kieliszka. Szampana podajemy osobno od drinka, w kieliszku do szotów. Ważnym jest, by poinformować konsumującego drinka, że obie jego części należy pić oddzielnie..
+        /// </summary>
+        internal static string pornstarMartiniRecipe {
+            get {
+                return ResourceManager.GetString("pornstarMartiniRecipe", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Pornstar Martini.
+        /// </summary>
+        internal static string pornstarMartiniTitle {
+            get {
+                return ResourceManager.GetString("pornstarMartiniTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Sex on the Beach w samym USA jest tak popularnym drinkiem, że jego miłośnicy 4 października hucznie obchodzą rok rocznie jego święto, przy okazji obchodów National Vodka Day..
+        /// </summary>
+        internal static string sexOnTheBeachDescription {
+            get {
+                return ResourceManager.GetString("sexOnTheBeachDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 20 ml likieru brzoskwiniowego.
+        /// </summary>
+        internal static string sexOnTheBeachIngrecient2 {
+            get {
+                return ResourceManager.GetString("sexOnTheBeachIngrecient2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 40 ml wódki.
+        /// </summary>
+        internal static string sexOnTheBeachIngredient1 {
+            get {
+                return ResourceManager.GetString("sexOnTheBeachIngredient1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 60 ml soku pomarańczowego.
+        /// </summary>
+        internal static string sexOnTheBeachIngredient3 {
+            get {
+                return ResourceManager.GetString("sexOnTheBeachIngredient3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to top-up sokiem żurawinowym.
+        /// </summary>
+        internal static string sexOnTheBeachIngredient4 {
+            get {
+                return ResourceManager.GetString("sexOnTheBeachIngredient4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Wódkę, likier oraz sok pomarańczowy wlej do szklanki typu hurricane lub long pełną lodu. Wymieszaj łyżką, następnie kilkoma dash&apos;ami wlej sok żurawinowy..
+        /// </summary>
+        internal static string sexOnTheBeachRecipe {
+            get {
+                return ResourceManager.GetString("sexOnTheBeachRecipe", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Sex On The Beach.
+        /// </summary>
+        internal static string sexOnTheBeachTitle {
+            get {
+                return ResourceManager.GetString("sexOnTheBeachTitle", resourceCulture);
             }
         }
         

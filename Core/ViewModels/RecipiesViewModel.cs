@@ -49,11 +49,9 @@ namespace Core.ViewModels
         public IMvxAsyncCommand ManhattanCommand => manhattanCommand = manhattanCommand ?? new MvxAsyncCommand(GoToManhattanCommand);
         public IMvxAsyncCommand DaiquiriCommand => daiquiriCommand = daiquiriCommand ?? new MvxAsyncCommand(GoToDaiquiriCommand);
         public IMvxAsyncCommand OldFashionedCommand => oldFashionedCommand = oldFashionedCommand ?? new MvxAsyncCommand(GoToOldFashionedCommand);
-
         #endregion
 
         #region Methods
-
         private async Task GoToMargharitaCommand()
         {
             await NavigationService.Navigate<CocktailViewModel, CocktailParameter>(new CocktailParameter
@@ -67,7 +65,6 @@ namespace Core.ViewModels
                 CocktailRecipe = Recipies.margharitaRecipe
             });
         }
-
         private async Task GoToMohitoCommand()
         {
             await NavigationService.Navigate<CocktailViewModel, CocktailParameter>(new CocktailParameter
@@ -82,7 +79,6 @@ namespace Core.ViewModels
                 CocktailRecipe = Recipies.mohitoRecipe
             });
         }
-
         private async Task GoToCubaLibreCommand()
         {
             await NavigationService.Navigate<CocktailViewModel, CocktailParameter>(new CocktailParameter
@@ -95,7 +91,6 @@ namespace Core.ViewModels
                 CocktailRecipe = Recipies.cubaLibreRecipe
             });
         }
-
         private async Task GoToPinaColadaCommand()
         {
             await NavigationService.Navigate<CocktailViewModel, CocktailParameter>(new CocktailParameter
@@ -109,7 +104,6 @@ namespace Core.ViewModels
                 CocktailRecipe = Recipies.pinaColadaRecipe
             });
         }
-
         private async Task GoToWhiskySourCommand()
         {
             await NavigationService.Navigate<CocktailViewModel, CocktailParameter>(new CocktailParameter
@@ -124,7 +118,6 @@ namespace Core.ViewModels
                 CocktailRecipe = Recipies.whiskySourRecipe
             });
         }
-
         private async Task GoToCosmopolitanCommand()
         {
             await NavigationService.Navigate<CocktailViewModel, CocktailParameter>(new CocktailParameter
@@ -138,22 +131,45 @@ namespace Core.ViewModels
                 CocktailRecipe = Recipies.cosmopolitanRecipe
             });
         }
-
         private async Task GoToPornstarMartiniCommand()
         {
-            throw new NotImplementedException();
+            await NavigationService.Navigate<CocktailViewModel, CocktailParameter>(new CocktailParameter
+            {
+                CocktailName = Recipies.pornstarMartiniTitle,
+                CocktailDescription = Recipies.pornStarMartiniDescription,
+                CocktailIngredient1 = Recipies.pornstarMartiniIngredient1,
+                CocktailIngredient2 = Recipies.pornstarMartiniIngredient2,
+                CocktailIngredient3 = Recipies.pornstarMartiniIngredient3,
+                CocktailIngredient4 = Recipies.pornstarMartiniIngredient4,
+                CocktailIngredient5 = Recipies.pornstarMartiniIngredient5,
+                CocktailRecipe = Recipies.pornstarMartiniRecipe
+            });
         }
-
         private async Task GoToNegroniCommand()
         {
-            throw new NotImplementedException();
+            await NavigationService.Navigate<CocktailViewModel, CocktailParameter>(new CocktailParameter
+            {
+                CocktailName = Recipies.negroniTitle,
+                CocktailDescription = Recipies.negroniIngredient1,
+                CocktailIngredient1 = Recipies.negroniIngredient2,
+                CocktailIngredient2 = Recipies.negroniIngredient3,
+                CocktailIngredient3 = Recipies.negroniIngredient4,
+                CocktailRecipe = Recipies.negroniRecipe
+            });
         }
-
         private async Task GoToEspressoMartiniCommand()
         {
-            throw new NotImplementedException();
+            await NavigationService.Navigate<CocktailViewModel, CocktailParameter>(new CocktailParameter
+            {
+                CocktailName = Recipies.espressoMartiniTitle,
+                CocktailDescription = Recipies.espressoMartiniDescription,
+                CocktailIngredient1 = Recipies.espressoMartiniIngredient1,
+                CocktailIngredient2 = Recipies.espressoMartiniIngredient2,
+                CocktailIngredient3 = Recipies.espressoMartiniIngredient3,
+                CocktailIngredient4 = Recipies.espressoMartiniIngredient4,
+                CocktailRecipe = Recipies.espressoMartiniRecipe
+            });
         }
-
         private async Task GoToMoscowMuleCommand()
         {
             await NavigationService.Navigate<CocktailViewModel, CocktailParameter>(new CocktailParameter
@@ -166,7 +182,6 @@ namespace Core.ViewModels
                 CocktailRecipe = Recipies.moscowMuleRecipe
             });
         }
-
         private async Task GoToManhattanCommand()
         {
             await NavigationService.Navigate<CocktailViewModel, CocktailParameter>(new CocktailParameter
@@ -179,12 +194,18 @@ namespace Core.ViewModels
                 CocktailRecipe = Recipies.manhattanRecipe
             });
         }
-
         private async Task GoToDaiquiriCommand()
         {
-            throw new NotImplementedException();
+            await NavigationService.Navigate<CocktailViewModel, CocktailParameter>(new CocktailParameter
+            {
+                CocktailName = Recipies.daiquiriTitle,
+                CocktailDescription = Recipies.daiquiriDescription,
+                CocktailIngredient1 = Recipies.daiquiriIngredient1,
+                CocktailIngredient2 = Recipies.daiquiriIngredient2,
+                CocktailIngredient3 = Recipies.daiquiriIngredient3,
+                CocktailRecipe = Recipies.daqiuiriRecipe
+            });
         }
-
         private async Task GoToOldFashionedCommand()
         {
             await NavigationService.Navigate<CocktailViewModel, CocktailParameter>(new CocktailParameter
@@ -198,7 +219,6 @@ namespace Core.ViewModels
                 CocktailRecipe = Recipies.oldFashionedRecipe
             });
         }
-
         private async Task GoToBlackWhiteRussianCommand()
         {
             await NavigationService.Navigate<CocktailViewModel, CocktailParameter>(new CocktailParameter
@@ -211,12 +231,19 @@ namespace Core.ViewModels
                 CocktailRecipe = Recipies.blackWhiteRussianRecipe
             });;
         }
-
         private async Task GoToSexOnTheBeachCommand()
         {
-            throw new NotImplementedException();
+            await NavigationService.Navigate<CocktailViewModel, CocktailParameter>(new CocktailParameter
+            {
+                CocktailName = Recipies.sexOnTheBeachTitle,
+                CocktailDescription = Recipies.sexOnTheBeachDescription,
+                CocktailIngredient1 = Recipies.sexOnTheBeachIngredient1,
+                CocktailIngredient2 = Recipies.sexOnTheBeachIngrecient2,
+                CocktailIngredient3 = Recipies.sexOnTheBeachIngredient3,
+                CocktailIngredient4 = Recipies.sexOnTheBeachIngredient4,
+                CocktailRecipe = Recipies.sexOnTheBeachRecipe
+            });
         }
-
         #endregion
     }
 }

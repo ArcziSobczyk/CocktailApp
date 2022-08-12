@@ -47,14 +47,16 @@
                     android:layout_margin="5dp"
                     android:textSize="20dp"
                     style="@style/buttonStyle"
-                    android:text="@string/pornstarMartini"/>
+                    android:text="@string/pornstarMartini"
+                    app:MvxBind="Click PornstarMartiniCommand"/>
                 <Button
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="5dp"
                     android:textSize="20dp"
                     style="@style/buttonStyle"
-                    android:text="@string/sexOnTheBeach"/>
+                    android:text="@string/sexOnTheBeach"
+                    app:MvxBind="Click SexOnTheBeach"/>
             </LinearLayout>
         </HorizontalScrollView>
         <TextView
@@ -85,7 +87,8 @@
                     android:layout_margin="5dp"
                     android:textSize="20dp"
                     style="@style/buttonStyle"
-                    android:text="@string/daiquiri"/>
+                    android:text="@string/daiquiri"
+                    app:MvxBind="Click DaiquiriCommand"/>
                 <Button
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -116,7 +119,8 @@
                     android:layout_margin="5dp"
                     android:textSize="20dp"
                     style="@style/buttonStyle"
-                    android:text="@string/negroni"/>
+                    android:text="@string/negroni"
+                    app:MvxBind="Click NegroniCommand"/>
                 <Button
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -155,7 +159,8 @@
                     android:layout_margin="5dp"
                     android:textSize="20dp"
                     style="@style/buttonStyle"
-                    android:text="@string/espressoMartini"/>
+                    android:text="@string/espressoMartini"
+                    app:MvxBind="Click EspressoMartiniCommand"/>
                 <Button
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"

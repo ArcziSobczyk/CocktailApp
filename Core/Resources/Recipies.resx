@@ -174,6 +174,48 @@
   <data name="cubaLibreTitle" xml:space="preserve">
     <value>Cuba Libre</value>
   </data>
+  <data name="daiquiriDescription" xml:space="preserve">
+    <value />
+  </data>
+  <data name="daiquiriIngredient1" xml:space="preserve">
+    <value>40 ml jasnego rumu</value>
+  </data>
+  <data name="daiquiriIngredient2" xml:space="preserve">
+    <value>20 ml soku z limonki</value>
+  </data>
+  <data name="daiquiriIngredient3" xml:space="preserve">
+    <value>10 ml syropu cukrowego</value>
+  </data>
+  <data name="daiquiriTitle" xml:space="preserve">
+    <value>Daiquiri</value>
+  </data>
+  <data name="daqiuiriRecipe" xml:space="preserve">
+    <value>Wszystkie składniki wlej do shakera pełnego lodu i energicznie wstrząśnij. Tak przygotowany koktajl przelej poprzez double-strain do schłodzonego kieliszka koktajlowego.</value>
+  </data>
+  <data name="espressoMartiniDescription" xml:space="preserve">
+    <value>Espresso Martini jest nazywany przez barmanów współczesnym klasykiem, czyli koktajlem znanym i pitym w barach na całym świecie, bazującym na szeroko dostępnych składnikach z wystandaryzowaną i znaną recepturą. Skomponowany został w latach 90. przez londyńskiego guru barowego Dicka Bradsella, który w dużej części odpowiada za to, co dziś pijamy wieczorową porą.</value>
+  </data>
+  <data name="espressoMartiniIngredient1" xml:space="preserve">
+    <value>50 ml wódki</value>
+  </data>
+  <data name="espressoMartiniIngredient2" xml:space="preserve">
+    <value>25 ml likieru Kahlua</value>
+  </data>
+  <data name="espressoMartiniIngredient3" xml:space="preserve">
+    <value>filiżanka espresso</value>
+  </data>
+  <data name="espressoMartiniIngredient4" xml:space="preserve">
+    <value>15 ml syropu cukrowego</value>
+  </data>
+  <data name="espressoMartiniRecipe" xml:space="preserve">
+    <value>Składniki wlej do shakare i energicznie wstrząśnij. Tak przygotowany koktajl przelej do schłodzonego kieliszka koktajlowego poprzez double-strain.</value>
+  </data>
+  <data name="espressoMartiniTitle" xml:space="preserve">
+    <value>Espresso Martini</value>
+  </data>
+  <data name="etr" xml:space="preserve">
+    <value />
+  </data>
   <data name="manhattanDescription" xml:space="preserve">
     <value>Drink Manhattan w dziejach sztuki barmańskiej zapisał się jako pierwszy drink z wermutem oraz wielki poprzednik dwóch innych klasyków: Martineza i Martini. Choć lista drinków z whiskey jest długa, Manhattan zajmuje na niej wyjątkowe miejsce. Dlaczego? Bez niego nie powstałby słynny drink Martini kojarzony z przygodami Jamesa Bonda.</value>
   </data>
@@ -255,6 +297,27 @@
   <data name="moscowMuleTitle" xml:space="preserve">
     <value>Moscow Mule</value>
   </data>
+  <data name="negroniDescription" xml:space="preserve">
+    <value>Jako że o Negronim po raz pierwszy usłyszano już w 1919 roku, drink ten niedawno obchodził swoje stulecie istnienia. A jak powstał? Legenda głosi, że pewnego dnia, pewnemu włoskiemu hrabiemu znudziło się spożywanie ciągle tego samego mocnego drinku alkoholowego (campari + czerwony wermut) i nakazał swojemu barmanowi, aby ten przygotował mu jakiś specjalny koktajl. Ów barman wyszedł z inicjatywą dodania do istniejącego już przepisu uncję ginu i tak powstał koktajl, który z czasem odziedziczył nazwę po słynnym arystokracie włoskim: Negroni.</value>
+  </data>
+  <data name="negroniIngredient1" xml:space="preserve">
+    <value>30 ml gin</value>
+  </data>
+  <data name="negroniIngredient2" xml:space="preserve">
+    <value>30 ml Rosso Vermuth</value>
+  </data>
+  <data name="negroniIngredient3" xml:space="preserve">
+    <value>30 ml Campari</value>
+  </data>
+  <data name="negroniIngredient4" xml:space="preserve">
+    <value>zest ze skórki pomarańczy</value>
+  </data>
+  <data name="negroniRecipe" xml:space="preserve">
+    <value>Gin, vermuth oraz Campari wlej do szklanicy pełnej lodu. Wymieszaj do czasu dobrego schłodzenia, następnie przelej zawartość do szklanki typu short pełnej lodu. Na koniec wyciśnij zest oraz wrzuć go do koktajlu.</value>
+  </data>
+  <data name="negroniTitle" xml:space="preserve">
+    <value>Negroni</value>
+  </data>
   <data name="oldFashionedDescription" xml:space="preserve">
     <value />
   </data>
@@ -296,6 +359,51 @@
   </data>
   <data name="pinaColadaTitle" xml:space="preserve">
     <value>Pina Colada</value>
+  </data>
+  <data name="pornStarMartiniDescription" xml:space="preserve">
+    <value>Pornstar Martini drink, który zawdzięcza swoją popularność połączeniu wódki, soku z limonki i przecieru z marakui. Pamiętaj, że jeżeli nie posiadasz w domu musu z marakui użyj świeżego, soczystego miąższu z owocu marakui, który dodasz do drinka. Marakuja sprawia, że nasz drink jest niezwykle orzeźwiający i czuć w nim posmak kwasowości.</value>
+  </data>
+  <data name="pornstarMartiniIngredient1" xml:space="preserve">
+    <value>60 ml wódki waniliowej / 45 ml wódki i 15 ml syropu waniliowego</value>
+  </data>
+  <data name="pornstarMartiniIngredient2" xml:space="preserve">
+    <value>15 ml puree z marakui lub syrop</value>
+  </data>
+  <data name="pornstarMartiniIngredient3" xml:space="preserve">
+    <value>20 ml soku z limonki</value>
+  </data>
+  <data name="pornstarMartiniIngredient4" xml:space="preserve">
+    <value>20 ml passoa</value>
+  </data>
+  <data name="pornstarMartiniIngredient5" xml:space="preserve">
+    <value>40 ml champagne</value>
+  </data>
+  <data name="pornstarMartiniRecipe" xml:space="preserve">
+    <value>Dodaj wszystkie składniki poza szampanem do shakera, wstrząśnij z lodem i przelej do kieliszka. Szampana podajemy osobno od drinka, w kieliszku do szotów. Ważnym jest, by poinformować konsumującego drinka, że obie jego części należy pić oddzielnie.</value>
+  </data>
+  <data name="pornstarMartiniTitle" xml:space="preserve">
+    <value>Pornstar Martini</value>
+  </data>
+  <data name="sexOnTheBeachDescription" xml:space="preserve">
+    <value>Sex on the Beach w samym USA jest tak popularnym drinkiem, że jego miłośnicy 4 października hucznie obchodzą rok rocznie jego święto, przy okazji obchodów National Vodka Day.</value>
+  </data>
+  <data name="sexOnTheBeachIngrecient2" xml:space="preserve">
+    <value>20 ml likieru brzoskwiniowego</value>
+  </data>
+  <data name="sexOnTheBeachIngredient1" xml:space="preserve">
+    <value>40 ml wódki</value>
+  </data>
+  <data name="sexOnTheBeachIngredient3" xml:space="preserve">
+    <value>60 ml soku pomarańczowego</value>
+  </data>
+  <data name="sexOnTheBeachIngredient4" xml:space="preserve">
+    <value>top-up sokiem żurawinowym</value>
+  </data>
+  <data name="sexOnTheBeachRecipe" xml:space="preserve">
+    <value>Wódkę, likier oraz sok pomarańczowy wlej do szklanki typu hurricane lub long pełną lodu. Wymieszaj łyżką, następnie kilkoma dash'ami wlej sok żurawinowy.</value>
+  </data>
+  <data name="sexOnTheBeachTitle" xml:space="preserve">
+    <value>Sex On The Beach</value>
   </data>
   <data name="whiskySourDescription" xml:space="preserve">
     <value />
