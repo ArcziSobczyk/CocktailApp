@@ -1,222 +1,229 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:weightSum="10"
     android:background="@color/main">
-    <LinearLayout
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:layout_margin="5dp">
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="5dp"
-            android:textSize="20sp"
-            android:text="@string/sweet"/>
-        <HorizontalScrollView
+        android:layout_height="0dp"
+        android:layout_weight="9">
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:orientation="vertical"
             android:layout_margin="5dp">
-            <LinearLayout
+            <TextView
                 android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:orientation="horizontal">
-                <Button
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="5dp"
-                    android:textSize="20dp"
-                    style="@style/buttonStyle"
-                    android:text="@string/cubaLibre"
-                    app:MvxBind="Click CubaLibreCommand"/>
-                <Button
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="5dp"
-                    android:textSize="20dp"
-                    style="@style/buttonStyle"
-                    android:text="@string/pinaColada"
-                    app:MvxBind="Click PinaColadaCommand"/>
-                <Button
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="5dp"
-                    android:textSize="20dp"
-                    style="@style/buttonStyle"
-                    android:text="@string/pornstarMartini"
-                    app:MvxBind="Click PornstarMartiniCommand"/>
-                <Button
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="5dp"
-                    android:textSize="20dp"
-                    style="@style/buttonStyle"
-                    android:text="@string/sexOnTheBeach"
-                    app:MvxBind="Click SexOnTheBeach"/>
-            </LinearLayout>
-        </HorizontalScrollView>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="5dp"
-            android:textSize="20sp"
-            android:text="@string/sour"/>
-        <HorizontalScrollView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="5dp">
-            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textSize="20sp"
+                android:text="@string/sweet"/>
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:textSize="20dp"
+                        style="@style/buttonStyle"
+                        android:text="@string/cubaLibre"
+                        app:MvxBind="Click CubaLibreCommand"/>
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:textSize="20dp"
+                        style="@style/buttonStyle"
+                        android:text="@string/pinaColada"
+                        app:MvxBind="Click PinaColadaCommand"/>
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:textSize="20dp"
+                        style="@style/buttonStyle"
+                        android:text="@string/pornstarMartini"
+                        app:MvxBind="Click PornstarMartiniCommand"/>
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:textSize="20dp"
+                        style="@style/buttonStyle"
+                        android:text="@string/sexOnTheBeach"
+                        app:MvxBind="Click SexOnTheBeach"/>
+                </LinearLayout>
+            </HorizontalScrollView>
+            <TextView
                 android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:orientation="horizontal">
-                <Button
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="5dp"
-                    android:textSize="20dp"
-                    style="@style/buttonStyle"
-                    android:text="@string/whiskySour"
-                    app:MvxBind="Click WhiskySourCommand"/>
-                <Button
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="5dp"
-                    android:textSize="20dp"
-                    style="@style/buttonStyle"
-                    android:text="@string/daiquiri"
-                    app:MvxBind="Click DaiquiriCommand"/>
-                <Button
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="5dp"
-                    android:textSize="20dp"
-                    style="@style/buttonStyle"
-                    android:text="@string/margharita"
-                    app:MvxBind="Click MargharitaCommand"/>
-            </LinearLayout>
-        </HorizontalScrollView>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="5dp"
-            android:textSize="20sp"
-            android:text="@string/bitter"/>
-        <HorizontalScrollView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="5dp">
-            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:textSize="20sp"
+                android:text="@string/sour"/>
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:textSize="20dp"
+                        style="@style/buttonStyle"
+                        android:text="@string/whiskySour"
+                        app:MvxBind="Click WhiskySourCommand"/>
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:textSize="20dp"
+                        style="@style/buttonStyle"
+                        android:text="@string/daiquiri"
+                        app:MvxBind="Click DaiquiriCommand"/>
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:textSize="20dp"
+                        style="@style/buttonStyle"
+                        android:text="@string/margharita"
+                        app:MvxBind="Click MargharitaCommand"/>
+                </LinearLayout>
+            </HorizontalScrollView>
+            <TextView
                 android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:orientation="horizontal">
-                <Button
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="5dp"
-                    android:textSize="20dp"
-                    style="@style/buttonStyle"
-                    android:text="@string/negroni"
-                    app:MvxBind="Click NegroniCommand"/>
-                <Button
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="5dp"
-                    android:textSize="20dp"
-                    style="@style/buttonStyle"
-                    android:text="@string/oldFashioned"
-                    app:MvxBind="Click OldFashionedCommand"/>
-            </LinearLayout>
-        </HorizontalScrollView>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="5dp"
-            android:textSize="20sp"
-            android:text="@string/strong"/>
-        <HorizontalScrollView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="5dp">
-            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textSize="20sp"
+                android:text="@string/bitter"/>
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:textSize="20dp"
+                        style="@style/buttonStyle"
+                        android:text="@string/negroni"
+                        app:MvxBind="Click NegroniCommand"/>
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:textSize="20dp"
+                        style="@style/buttonStyle"
+                        android:text="@string/oldFashioned"
+                        app:MvxBind="Click OldFashionedCommand"/>
+                </LinearLayout>
+            </HorizontalScrollView>
+            <TextView
                 android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:orientation="horizontal">
-                <Button
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="5dp"
-                    android:textSize="20dp"
-                    style="@style/buttonStyle"
-                    android:text="@string/cosmopolitan"
-                    app:MvxBind="Click CosmopolitanCommand"/>
-                <Button
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="5dp"
-                    android:textSize="20dp"
-                    style="@style/buttonStyle"
-                    android:text="@string/espressoMartini"
-                    app:MvxBind="Click EspressoMartiniCommand"/>
-                <Button
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="5dp"
-                    android:textSize="20dp"
-                    style="@style/buttonStyle"
-                    android:text="@string/manhattan"
-                    app:MvxBind="Click ManhattanCommand"/>
-                <Button
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="5dp"
-                    android:textSize="20dp"
-                    style="@style/buttonStyle"
-                    android:text="@string/blackWhiteRussian"
-                    app:MvxBind="Click BlackWhiteRussian"/>
-            </LinearLayout>
-        </HorizontalScrollView>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="5dp"
-            android:textSize="20sp"
-            android:text="@string/fresh"/>
-        <HorizontalScrollView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="5dp">
-            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textSize="20sp"
+                android:text="@string/strong"/>
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:textSize="20dp"
+                        style="@style/buttonStyle"
+                        android:text="@string/cosmopolitan"
+                        app:MvxBind="Click CosmopolitanCommand"/>
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:textSize="20dp"
+                        style="@style/buttonStyle"
+                        android:text="@string/espressoMartini"
+                        app:MvxBind="Click EspressoMartiniCommand"/>
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:textSize="20dp"
+                        style="@style/buttonStyle"
+                        android:text="@string/manhattan"
+                        app:MvxBind="Click ManhattanCommand"/>
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:textSize="20dp"
+                        style="@style/buttonStyle"
+                        android:text="@string/blackWhiteRussian"
+                        app:MvxBind="Click BlackWhiteRussian"/>
+                </LinearLayout>
+            </HorizontalScrollView>
+            <TextView
                 android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:orientation="horizontal">
-                <Button
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="5dp"
-                    android:textSize="20dp"
-                    style="@style/buttonStyle"
-                    android:text="@string/mohito"
-                    app:MvxBind="Click MohitoCommand"/>
-                <Button
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="5dp"
-                    android:textSize="20dp"
-                    style="@style/buttonStyle"
-                    android:text="@string/moscowMule"
-                    app:MvxBind="Click MoscowMuleCommand"/>
-            </LinearLayout>
-        </HorizontalScrollView>
-    </LinearLayout>
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:textSize="20sp"
+                android:text="@string/fresh"/>
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:textSize="20dp"
+                        style="@style/buttonStyle"
+                        android:text="@string/mohito"
+                        app:MvxBind="Click MohitoCommand"/>
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:textSize="20dp"
+                        style="@style/buttonStyle"
+                        android:text="@string/moscowMule"
+                        app:MvxBind="Click MoscowMuleCommand"/>
+                </LinearLayout>
+            </HorizontalScrollView>
+        </LinearLayout>
+    </ScrollView>
     <Button
-       android:layout_width="match_parent"
-       android:layout_height="wrap_content"
-       android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_alignParentBottom="true"
         android:layout_margin="5dp"
         android:text="@string/exit"
         app:MvxBind="Click BackPressedCommand"/>
-</RelativeLayout>
+</LinearLayout>
