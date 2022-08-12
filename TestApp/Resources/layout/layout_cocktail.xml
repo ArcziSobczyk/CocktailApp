@@ -18,7 +18,7 @@
             android:id="@+id/cocktailName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="5dp"
+            android:layout_margin="15dp"
             android:textSize="30dp"
             android:text="NAZWA"
             app:MvxBind="Text CocktailModel.CocktailName"/>
@@ -26,6 +26,7 @@
             android:id="@+id/relativeLayout1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_margin="15dp"
             android:layout_centerInParent="true">
             <TextView
                 android:id="@+id/cocktailIngredient1"
@@ -87,7 +88,7 @@
             android:layout_alignParentBottom="true"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="10dp"
+            android:layout_margin="15dp"
             android:textSize="20dp"
             android:text="PRZEPIS"
             app:MvxBind="Text CocktailModel.CocktailRecipe"/>
