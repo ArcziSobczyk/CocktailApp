@@ -1,5 +1,6 @@
 ﻿using Core.Models;
 using MvvmCross;
+using MvvmCross.Commands;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -41,7 +42,6 @@ namespace Core.ViewModels
             else
                 IngredientSix = true;
         }
-
         public override void onBackPressed()
         {
             NavigationService.Close(this);
@@ -81,7 +81,11 @@ namespace Core.ViewModels
                 RaisePropertyChanged(() => IngredientSix);
             }
         }
+        #endregion
 
+        #region Commands
+        private IMvxCommand backCommand;
+        public IMvxCommand BackCommand => backCommand = backCommand ?? new MvxCommand(onBackPressed);
         #endregion
     }
 }

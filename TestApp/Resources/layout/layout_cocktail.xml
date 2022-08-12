@@ -5,11 +5,13 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/main">
+    android:background="@color/main"
+    android:weightSum="10">
     <RelativeLayout
         android:id="@+id/relativeLayout2"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"
         android:background="@drawable/roundborder"
         android:layout_margin="45dp"
         android:elevation="10dp"
@@ -93,4 +95,11 @@
             android:text="PRZEPIS"
             app:MvxBind="Text CocktailModel.CocktailRecipe"/>
     </RelativeLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="5dp"
+        android:text="@string/exit"
+        app:MvxBind="Click BackCommand"/>
 </LinearLayout>
