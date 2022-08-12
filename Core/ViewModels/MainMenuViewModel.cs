@@ -20,8 +20,10 @@ namespace Core.ViewModels
         #region Command
         private IMvxAsyncCommand recipiesCommand;
         private IMvxAsyncCommand funFactCommand;
+        private IMvxCommand backCommand;
         public IMvxAsyncCommand RecipiesCommand => recipiesCommand = recipiesCommand ?? new MvxAsyncCommand(GoToRecipies);
         public IMvxAsyncCommand FunFactCommand => funFactCommand = funFactCommand ?? new MvxAsyncCommand(GoToFunFact);
+        public IMvxCommand BackCommand => backCommand = backCommand ?? new MvxCommand(onBackPressed);
         #endregion
 
         #region Navigation

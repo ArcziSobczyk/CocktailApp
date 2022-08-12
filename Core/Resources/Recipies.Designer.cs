@@ -70,7 +70,7 @@ namespace Core.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 60 ml wódki.
+        ///   Looks up a localized string similar to - 60 ml wódki.
         /// </summary>
         internal static string blackWhiteRussianIngredient1 {
             get {
@@ -79,7 +79,7 @@ namespace Core.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 30 ml likieru kawowego.
+        ///   Looks up a localized string similar to - 30 ml likieru kawowego.
         /// </summary>
         internal static string blackWhiteRussianIngredient2 {
             get {
@@ -88,7 +88,7 @@ namespace Core.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 30 ml śmietanki 30% / mleka (w wariancie White Russian).
+        ///   Looks up a localized string similar to - 30 ml śmietanki 30% / mleka (w wariancie White Russian).
         /// </summary>
         internal static string blackWhiteRussianIngredient3 {
             get {
@@ -124,7 +124,7 @@ namespace Core.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 40 ml wódki.
+        ///   Looks up a localized string similar to - 40 ml wódki.
         /// </summary>
         internal static string cosmopolitanIngredient1 {
             get {
@@ -133,7 +133,7 @@ namespace Core.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 20 ml Triple Sec / Cointreau.
+        ///   Looks up a localized string similar to - 20 ml Triple Sec / Cointreau.
         /// </summary>
         internal static string cosmopolitanIngredient2 {
             get {
@@ -142,7 +142,7 @@ namespace Core.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 30 ml sok żurawinowy.
+        ///   Looks up a localized string similar to - 30 ml sok żurawinowy.
         /// </summary>
         internal static string cosmopolitanIngredient3 {
             get {
@@ -151,7 +151,7 @@ namespace Core.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 5 ml soku z cytryny.
+        ///   Looks up a localized string similar to - 5 ml soku z cytryny.
         /// </summary>
         internal static string cosmopolitanIngredient4 {
             get {
@@ -187,7 +187,7 @@ namespace Core.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 40 ml białego rumu.
+        ///   Looks up a localized string similar to - 40 ml białego rumu.
         /// </summary>
         internal static string cubaLibreIngredient1 {
             get {
@@ -196,7 +196,7 @@ namespace Core.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 100-150 ml Coca-Cola.
+        ///   Looks up a localized string similar to - 100-150 ml Coca-Cola.
         /// </summary>
         internal static string cubaLibreIngredient2 {
             get {
@@ -205,7 +205,7 @@ namespace Core.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 3 ćwiartki limonki.
+        ///   Looks up a localized string similar to - 3 ćwiartki limonki.
         /// </summary>
         internal static string cubaLibreIngredient3 {
             get {
@@ -241,7 +241,7 @@ namespace Core.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 40 ml jasnego rumu.
+        ///   Looks up a localized string similar to - 40 ml jasnego rumu.
         /// </summary>
         internal static string daiquiriIngredient1 {
             get {
@@ -250,7 +250,7 @@ namespace Core.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 20 ml soku z limonki.
+        ///   Looks up a localized string similar to - 20 ml soku z limonki.
         /// </summary>
         internal static string daiquiriIngredient2 {
             get {
@@ -259,7 +259,7 @@ namespace Core.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 10 ml syropu cukrowego.
+        ///   Looks up a localized string similar to - 10 ml syropu cukrowego.
         /// </summary>
         internal static string daiquiriIngredient3 {
             get {
@@ -295,7 +295,7 @@ namespace Core.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 50 ml wódki.
+        ///   Looks up a localized string similar to - 50 ml wódki.
         /// </summary>
         internal static string espressoMartiniIngredient1 {
             get {
@@ -304,7 +304,7 @@ namespace Core.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 25 ml likieru Kahlua.
+        ///   Looks up a localized string similar to - 25 ml likieru Kahlua.
         /// </summary>
         internal static string espressoMartiniIngredient2 {
             get {
@@ -313,7 +313,7 @@ namespace Core.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to filiżanka espresso.
+        ///   Looks up a localized string similar to - filiżanka espresso.
         /// </summary>
         internal static string espressoMartiniIngredient3 {
             get {
@@ -322,7 +322,7 @@ namespace Core.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 15 ml syropu cukrowego.
+        ///   Looks up a localized string similar to - 15 ml syropu cukrowego.
         /// </summary>
         internal static string espressoMartiniIngredient4 {
             get {
@@ -367,7 +367,7 @@ namespace Core.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 60 ml bourbon&apos;u.
+        ///   Looks up a localized string similar to - 60 ml bourbon&apos;u.
         /// </summary>
         internal static string manhattanIngredient1 {
             get {
@@ -376,7 +376,7 @@ namespace Core.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 30 ml słodkiego wermutu.
+        ///   Looks up a localized string similar to - 30 ml słodkiego wermutu.
         /// </summary>
         internal static string manhattanIngredient2 {
             get {
@@ -385,7 +385,7 @@ namespace Core.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 2-3 krople Angostury.
+        ///   Looks up a localized string similar to - 2-3 krople Angostury.
         /// </summary>
         internal static string manhattanIngredient3 {
             get {
@@ -421,7 +421,7 @@ namespace Core.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 40 ml tequili.
+        ///   Looks up a localized string similar to - 40 ml tequili.
         /// </summary>
         internal static string margharitaIngredient1 {
             get {
@@ -430,7 +430,7 @@ namespace Core.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 20 ml triple sec.
+        ///   Looks up a localized string similar to - 20 ml triple sec.
         /// </summary>
         internal static string margharitaIngredient2 {
             get {
@@ -439,7 +439,7 @@ namespace Core.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to sok z połówki limonki.
+        ///   Looks up a localized string similar to - sok z połówki limonki.
         /// </summary>
         internal static string margharitaIngredient3 {
             get {
@@ -448,7 +448,7 @@ namespace Core.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 10 ml syropu cukrowego.
+        ///   Looks up a localized string similar to - 10 ml syropu cukrowego.
         /// </summary>
         internal static string margharitaIngredient4 {
             get {
@@ -484,7 +484,7 @@ namespace Core.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 50 ml białego rumu.
+        ///   Looks up a localized string similar to - 50 ml białego rumu.
         /// </summary>
         internal static string mohitoIngredient1 {
             get {
@@ -493,7 +493,7 @@ namespace Core.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Pół limonki + ćwiartka do dekoracji.
+        ///   Looks up a localized string similar to - Pół limonki + ćwiartka do dekoracji.
         /// </summary>
         internal static string mohitoIngredient2 {
             get {
@@ -502,7 +502,7 @@ namespace Core.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 2 łyżeczki cukru trzcinowego.
+        ///   Looks up a localized string similar to - 2 łyżeczki cukru trzcinowego.
         /// </summary>
         internal static string mohitoIngredient3 {
             get {
@@ -511,7 +511,7 @@ namespace Core.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Kilka listków mięty.
+        ///   Looks up a localized string similar to - Kilka listków mięty.
         /// </summary>
         internal static string mohitoIngredient4 {
             get {
@@ -520,7 +520,7 @@ namespace Core.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 25 ml wody gazowanej.
+        ///   Looks up a localized string similar to - 25 ml wody gazowanej.
         /// </summary>
         internal static string mohitoIngredient5 {
             get {
@@ -556,7 +556,7 @@ namespace Core.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 40 ml wódki.
+        ///   Looks up a localized string similar to - 40 ml wódki.
         /// </summary>
         internal static string moscowMuleIngredient1 {
             get {
@@ -565,7 +565,7 @@ namespace Core.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 150 ml piwa imbirowego.
+        ///   Looks up a localized string similar to - 150 ml piwa imbirowego.
         /// </summary>
         internal static string moscowMuleIngredient2 {
             get {
@@ -574,7 +574,7 @@ namespace Core.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 20 ml soku z limonki.
+        ///   Looks up a localized string similar to - 20 ml soku z limonki.
         /// </summary>
         internal static string moscowMuleIngredient3 {
             get {
@@ -610,7 +610,7 @@ namespace Core.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 30 ml gin.
+        ///   Looks up a localized string similar to - 30 ml gin.
         /// </summary>
         internal static string negroniIngredient1 {
             get {
@@ -619,7 +619,7 @@ namespace Core.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 30 ml Rosso Vermuth.
+        ///   Looks up a localized string similar to - 30 ml Rosso Vermuth.
         /// </summary>
         internal static string negroniIngredient2 {
             get {
@@ -628,7 +628,7 @@ namespace Core.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 30 ml Campari.
+        ///   Looks up a localized string similar to - 30 ml Campari.
         /// </summary>
         internal static string negroniIngredient3 {
             get {
@@ -637,7 +637,7 @@ namespace Core.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to zest ze skórki pomarańczy.
+        ///   Looks up a localized string similar to - zest ze skórki pomarańczy.
         /// </summary>
         internal static string negroniIngredient4 {
             get {
@@ -673,7 +673,7 @@ namespace Core.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 40 ml bourbon&apos;u.
+        ///   Looks up a localized string similar to - 40 ml bourbon&apos;u.
         /// </summary>
         internal static string oldFashionedIngredient1 {
             get {
@@ -682,7 +682,7 @@ namespace Core.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 10 ml syropu cukrowego/ łyżka curku trzcinowego.
+        ///   Looks up a localized string similar to - 10 ml syropu cukrowego/ łyżka curku trzcinowego.
         /// </summary>
         internal static string oldFashionedIngredient2 {
             get {
@@ -691,7 +691,7 @@ namespace Core.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 2-3 krople Angostury.
+        ///   Looks up a localized string similar to - 2-3 krople Angostury.
         /// </summary>
         internal static string oldFashionedIngredient3 {
             get {
@@ -700,7 +700,7 @@ namespace Core.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to zest ze skórki pomarańczy.
+        ///   Looks up a localized string similar to - zest ze skórki pomarańczy.
         /// </summary>
         internal static string oldFashionedIngredient4 {
             get {
@@ -736,7 +736,7 @@ namespace Core.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 40 ml białego rumu.
+        ///   Looks up a localized string similar to - 40 ml białego rumu.
         /// </summary>
         internal static string pinaColadaIngredient1 {
             get {
@@ -745,7 +745,7 @@ namespace Core.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 20 ml mleczka kokosowego / syropu kokosowego / likieru kokosowego.
+        ///   Looks up a localized string similar to - 20 ml mleczka kokosowego / syropu kokosowego / likieru kokosowego.
         /// </summary>
         internal static string pinaColadaIngredient2 {
             get {
@@ -754,7 +754,7 @@ namespace Core.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 90 ml soku ananasowego.
+        ///   Looks up a localized string similar to - 90 ml soku ananasowego.
         /// </summary>
         internal static string pinaColadaIngredient3 {
             get {
@@ -763,7 +763,7 @@ namespace Core.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to splash mleka.
+        ///   Looks up a localized string similar to - splash mleka.
         /// </summary>
         internal static string pinaColadaIngredient4 {
             get {
@@ -799,7 +799,7 @@ namespace Core.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 60 ml wódki waniliowej / 45 ml wódki i 15 ml syropu waniliowego.
+        ///   Looks up a localized string similar to - 60 ml wódki waniliowej / 45 ml wódki i 15 ml syropu waniliowego.
         /// </summary>
         internal static string pornstarMartiniIngredient1 {
             get {
@@ -808,7 +808,7 @@ namespace Core.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 15 ml puree z marakui lub syrop.
+        ///   Looks up a localized string similar to - 15 ml puree z marakui lub syrop.
         /// </summary>
         internal static string pornstarMartiniIngredient2 {
             get {
@@ -817,7 +817,7 @@ namespace Core.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 20 ml soku z limonki.
+        ///   Looks up a localized string similar to - 20 ml soku z limonki.
         /// </summary>
         internal static string pornstarMartiniIngredient3 {
             get {
@@ -826,7 +826,7 @@ namespace Core.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 20 ml passoa.
+        ///   Looks up a localized string similar to - 20 ml passoa.
         /// </summary>
         internal static string pornstarMartiniIngredient4 {
             get {
@@ -835,7 +835,7 @@ namespace Core.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 40 ml champagne.
+        ///   Looks up a localized string similar to - 40 ml champagne.
         /// </summary>
         internal static string pornstarMartiniIngredient5 {
             get {
@@ -871,16 +871,7 @@ namespace Core.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 20 ml likieru brzoskwiniowego.
-        /// </summary>
-        internal static string sexOnTheBeachIngrecient2 {
-            get {
-                return ResourceManager.GetString("sexOnTheBeachIngrecient2", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to 40 ml wódki.
+        ///   Looks up a localized string similar to - 40 ml wódki.
         /// </summary>
         internal static string sexOnTheBeachIngredient1 {
             get {
@@ -889,7 +880,16 @@ namespace Core.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 60 ml soku pomarańczowego.
+        ///   Looks up a localized string similar to - 20 ml likieru brzoskwiniowego.
+        /// </summary>
+        internal static string sexOnTheBeachIngredient2 {
+            get {
+                return ResourceManager.GetString("sexOnTheBeachIngredient2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to - 60 ml soku pomarańczowego.
         /// </summary>
         internal static string sexOnTheBeachIngredient3 {
             get {
@@ -898,7 +898,7 @@ namespace Core.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to top-up sokiem żurawinowym.
+        ///   Looks up a localized string similar to - top-up sokiem żurawinowym.
         /// </summary>
         internal static string sexOnTheBeachIngredient4 {
             get {
@@ -934,7 +934,7 @@ namespace Core.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 40 ml whisky.
+        ///   Looks up a localized string similar to - 40 ml whisky.
         /// </summary>
         internal static string whiskySourIngredient1 {
             get {
@@ -943,7 +943,7 @@ namespace Core.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 20 ml soku z cytryny.
+        ///   Looks up a localized string similar to - 20 ml soku z cytryny.
         /// </summary>
         internal static string whiskySourIngredient2 {
             get {
@@ -952,7 +952,7 @@ namespace Core.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 10 ml syropu cukrowego.
+        ///   Looks up a localized string similar to - 10 ml syropu cukrowego.
         /// </summary>
         internal static string whiskySourIngredient3 {
             get {
@@ -961,7 +961,7 @@ namespace Core.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to białko jaja .
+        ///   Looks up a localized string similar to - białko jaja .
         /// </summary>
         internal static string whiskySourIngredient4 {
             get {
@@ -970,7 +970,7 @@ namespace Core.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 2-3 krople Angostury.
+        ///   Looks up a localized string similar to - 2-3 krople Angostury.
         /// </summary>
         internal static string whiskySourIngredient5 {
             get {

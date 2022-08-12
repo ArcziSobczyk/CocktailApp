@@ -1,27 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
     android:background="@color/main">
-    <TextView
-        android:id="@+id/exploreTitle"
-        android:layout_alignParentTop="true"
-		android:layout_width="wrap_content"
-		android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:layout_margin="10dp"
-        android:textSize="25sp"
-        android:text="@string/explore"/>
     <LinearLayout
         android:id="@+id/midLane"
         android:layout_below="@+id/exploreTitle"
         android:layout_above="@+id/footer"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"
         android:orientation="vertical"
-        android:layout_margin="5dp"
+        android:layout_margin="20dp"
         android:weightSum="2">
         <Button
             android:layout_width="match_parent"
@@ -40,14 +34,13 @@
             style="@style/buttonStyle"
             app:MvxBind="Click FunFactCommand"/>
     </LinearLayout>
-    <TextView
-        android:id="@+id/footer"
-        android:layout_alignParentBottom="true"
+    <Button
+        android:layout_below="@+id/midLane"
+        android:layout_above="@+id/footer"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
+        android:layout_height="0dp"
+        android:layout_weight="1"
         android:layout_margin="10dp"
-        android:autoSizeMaxTextSize="20sp"
-        android:layout_gravity="center"
-        android:text="All rights reserved © 2022"/>
-</RelativeLayout>
+        android:text="@string/exit"
+        app:MvxBind="Click BackCommand"/>
+</LinearLayout>

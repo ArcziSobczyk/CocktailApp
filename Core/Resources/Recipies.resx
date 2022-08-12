@@ -121,13 +121,13 @@
     <value>To klasyka dla każdego, kto lubi drinki z wódką i kawą oraz ulubiony koktajl Biga Lebowskiego. Słodki i mocny koktajl dla niecierpliwych, bo przygotowanie jego zajmuje jakieś 12 sekund.</value>
   </data>
   <data name="blackWhiteRussianIngredient1" xml:space="preserve">
-    <value>60 ml wódki</value>
+    <value>- 60 ml wódki</value>
   </data>
   <data name="blackWhiteRussianIngredient2" xml:space="preserve">
-    <value>30 ml likieru kawowego</value>
+    <value>- 30 ml likieru kawowego</value>
   </data>
   <data name="blackWhiteRussianIngredient3" xml:space="preserve">
-    <value>30 ml śmietanki 30% / mleka (w wariancie White Russian)</value>
+    <value>- 30 ml śmietanki 30% / mleka (w wariancie White Russian)</value>
   </data>
   <data name="blackWhiteRussianRecipe" xml:space="preserve">
     <value>Wypełnij szklankę typu short w kolejności - wódką, likierem i śmietanką / mlekiem. Gotowe!</value>
@@ -139,16 +139,16 @@
     <value>Cosmopolitan to drink na każdą okazję, którym możesz się cieszyć i w barze, i w domowym zaciszu. Prosty przepis, elegancki wygląd – oto najlepsza recepta na relaks z koleżankami i filmowym koktajlem.</value>
   </data>
   <data name="cosmopolitanIngredient1" xml:space="preserve">
-    <value>40 ml wódki</value>
+    <value>- 40 ml wódki</value>
   </data>
   <data name="cosmopolitanIngredient2" xml:space="preserve">
-    <value>20 ml Triple Sec / Cointreau</value>
+    <value>- 20 ml Triple Sec / Cointreau</value>
   </data>
   <data name="cosmopolitanIngredient3" xml:space="preserve">
-    <value>30 ml sok żurawinowy</value>
+    <value>- 30 ml sok żurawinowy</value>
   </data>
   <data name="cosmopolitanIngredient4" xml:space="preserve">
-    <value>5 ml soku z cytryny</value>
+    <value>- 5 ml soku z cytryny</value>
   </data>
   <data name="cosmopolitanRecipe" xml:space="preserve">
     <value>Do shakera wlej wszystkie składniki oraz energicznie wstrząśnij. Przelej poprzez double-strain do schłodzonej koktajlówki.</value>
@@ -160,13 +160,13 @@
     <value />
   </data>
   <data name="cubaLibreIngredient1" xml:space="preserve">
-    <value>40 ml białego rumu</value>
+    <value>- 40 ml białego rumu</value>
   </data>
   <data name="cubaLibreIngredient2" xml:space="preserve">
-    <value>100-150 ml Coca-Cola</value>
+    <value>- 100-150 ml Coca-Cola</value>
   </data>
   <data name="cubaLibreIngredient3" xml:space="preserve">
-    <value>3 ćwiartki limonki</value>
+    <value>- 3 ćwiartki limonki</value>
   </data>
   <data name="cubaLibreRecipe" xml:space="preserve">
     <value>Do szklanki typu long wrzuć cząstki limonki, zgnieć mudlerem. Następnie zasyp szkło kostkami lodu, wlej rum i Coca-Colę.</value>
@@ -178,13 +178,13 @@
     <value />
   </data>
   <data name="daiquiriIngredient1" xml:space="preserve">
-    <value>40 ml jasnego rumu</value>
+    <value>- 40 ml jasnego rumu</value>
   </data>
   <data name="daiquiriIngredient2" xml:space="preserve">
-    <value>20 ml soku z limonki</value>
+    <value>- 20 ml soku z limonki</value>
   </data>
   <data name="daiquiriIngredient3" xml:space="preserve">
-    <value>10 ml syropu cukrowego</value>
+    <value>- 10 ml syropu cukrowego</value>
   </data>
   <data name="daiquiriTitle" xml:space="preserve">
     <value>Daiquiri</value>
@@ -196,16 +196,16 @@
     <value>Espresso Martini jest nazywany przez barmanów współczesnym klasykiem, czyli koktajlem znanym i pitym w barach na całym świecie, bazującym na szeroko dostępnych składnikach z wystandaryzowaną i znaną recepturą. Skomponowany został w latach 90. przez londyńskiego guru barowego Dicka Bradsella, który w dużej części odpowiada za to, co dziś pijamy wieczorową porą.</value>
   </data>
   <data name="espressoMartiniIngredient1" xml:space="preserve">
-    <value>50 ml wódki</value>
+    <value>- 50 ml wódki</value>
   </data>
   <data name="espressoMartiniIngredient2" xml:space="preserve">
-    <value>25 ml likieru Kahlua</value>
+    <value>- 25 ml likieru Kahlua</value>
   </data>
   <data name="espressoMartiniIngredient3" xml:space="preserve">
-    <value>filiżanka espresso</value>
+    <value>- filiżanka espresso</value>
   </data>
   <data name="espressoMartiniIngredient4" xml:space="preserve">
-    <value>15 ml syropu cukrowego</value>
+    <value>- 15 ml syropu cukrowego</value>
   </data>
   <data name="espressoMartiniRecipe" xml:space="preserve">
     <value>Składniki wlej do shakare i energicznie wstrząśnij. Tak przygotowany koktajl przelej do schłodzonego kieliszka koktajlowego poprzez double-strain.</value>
@@ -220,13 +220,13 @@
     <value>Drink Manhattan w dziejach sztuki barmańskiej zapisał się jako pierwszy drink z wermutem oraz wielki poprzednik dwóch innych klasyków: Martineza i Martini. Choć lista drinków z whiskey jest długa, Manhattan zajmuje na niej wyjątkowe miejsce. Dlaczego? Bez niego nie powstałby słynny drink Martini kojarzony z przygodami Jamesa Bonda.</value>
   </data>
   <data name="manhattanIngredient1" xml:space="preserve">
-    <value>60 ml bourbon'u</value>
+    <value>- 60 ml bourbon'u</value>
   </data>
   <data name="manhattanIngredient2" xml:space="preserve">
-    <value>30 ml słodkiego wermutu</value>
+    <value>- 30 ml słodkiego wermutu</value>
   </data>
   <data name="manhattanIngredient3" xml:space="preserve">
-    <value>2-3 krople Angostury</value>
+    <value>- 2-3 krople Angostury</value>
   </data>
   <data name="manhattanRecipe" xml:space="preserve">
     <value>Wszystkie składniki należy wlać do shakera z lodem i energicznie wymieszać. Następnie przelać poprzez double-strain do dobrze schłodzonej koktajlówki.</value>
@@ -238,16 +238,16 @@
     <value>Drink margarita pochodzi z Meksyku. Jego nazwa prawdopodobnie wzięła się od imienia kobiety, dla której został przygotowany po raz pierwszy. To pyszny, orzeźwiający napój najczęściej przygotowywany z dodatkiem cytryny. Można go również podawać z innymi owocami lub sokami owocowymi - szczególną popularnością cieszy się wersja truskawkowa. Ważnym elementem podania Margarity jest crustowanie brzegu szklanki, w której podaje się koktajl.</value>
   </data>
   <data name="margharitaIngredient1" xml:space="preserve">
-    <value>40 ml tequili</value>
+    <value>- 40 ml tequili</value>
   </data>
   <data name="margharitaIngredient2" xml:space="preserve">
-    <value>20 ml triple sec</value>
+    <value>- 20 ml triple sec</value>
   </data>
   <data name="margharitaIngredient3" xml:space="preserve">
-    <value>sok z połówki limonki</value>
+    <value>- sok z połówki limonki</value>
   </data>
   <data name="margharitaIngredient4" xml:space="preserve">
-    <value>10 ml syropu cukrowego</value>
+    <value>- 10 ml syropu cukrowego</value>
   </data>
   <data name="margharitaRecipe" xml:space="preserve">
     <value>Do shakera wlej tequile, triple sec, sok z limonki i syrop cukrowy. Zawartość shakera przelej do schłodzonego kieliszka koktajlowego.</value>
@@ -259,19 +259,19 @@
     <value>Podobno ten mentolowy koktajl ma już ponad 400 lat. Pochodzi z Kuby – nie bez powodu więc jego smak przywodzi na myśl pełne słońca plaże i szum Morza Karaibskiego. Legendy mówią, że mojito ewoluowało z napoju, którym raczyli się angielscy korsarze, w tym słynny kapitan Drake – rumu z trzciny cukrowej połączonego z cukrem i cytrusami. Inni historycy twierdzą z kolei, że czymś podobnym raczyli się kubańscy niewolnicy.</value>
   </data>
   <data name="mohitoIngredient1" xml:space="preserve">
-    <value>50 ml białego rumu</value>
+    <value>- 50 ml białego rumu</value>
   </data>
   <data name="mohitoIngredient2" xml:space="preserve">
-    <value>Pół limonki + ćwiartka do dekoracji</value>
+    <value>- Pół limonki + ćwiartka do dekoracji</value>
   </data>
   <data name="mohitoIngredient3" xml:space="preserve">
-    <value>2 łyżeczki cukru trzcinowego</value>
+    <value>- 2 łyżeczki cukru trzcinowego</value>
   </data>
   <data name="mohitoIngredient4" xml:space="preserve">
-    <value>Kilka listków mięty</value>
+    <value>- Kilka listków mięty</value>
   </data>
   <data name="mohitoIngredient5" xml:space="preserve">
-    <value>25 ml wody gazowanej</value>
+    <value>- 25 ml wody gazowanej</value>
   </data>
   <data name="mohitoRecipe" xml:space="preserve">
     <value>Limonkę wyszorować, pokroić na ćwiartki i wrzucić do szklanki typu long drink Zasypać cukrem i dokładnie ugnieść. Następnie dodać listki mięty i znowu ugnieść. Do połowy wysokości szklanki dodać lód, a następnie rum i znów lód. Zamieszać. Na wierzch dodać wodę gazowaną i delikatnie zmieszać. Szklankę udekorować limonką i listkami mięty.</value>
@@ -283,13 +283,13 @@
     <value />
   </data>
   <data name="moscowMuleIngredient1" xml:space="preserve">
-    <value>40 ml wódki</value>
+    <value>- 40 ml wódki</value>
   </data>
   <data name="moscowMuleIngredient2" xml:space="preserve">
-    <value>150 ml piwa imbirowego</value>
+    <value>- 150 ml piwa imbirowego</value>
   </data>
   <data name="moscowMuleIngredient3" xml:space="preserve">
-    <value>20 ml soku z limonki</value>
+    <value>- 20 ml soku z limonki</value>
   </data>
   <data name="moscowMuleRecipe" xml:space="preserve">
     <value>Szklankę typu long zasyp kruszonym lodem. Wlej wódkę i sok z limonki oraz wymieszaj. Na koniec uzupełnij piwem imbirowym oraz kruszonym lodem.</value>
@@ -301,16 +301,16 @@
     <value>Jako że o Negronim po raz pierwszy usłyszano już w 1919 roku, drink ten niedawno obchodził swoje stulecie istnienia. A jak powstał? Legenda głosi, że pewnego dnia, pewnemu włoskiemu hrabiemu znudziło się spożywanie ciągle tego samego mocnego drinku alkoholowego (campari + czerwony wermut) i nakazał swojemu barmanowi, aby ten przygotował mu jakiś specjalny koktajl. Ów barman wyszedł z inicjatywą dodania do istniejącego już przepisu uncję ginu i tak powstał koktajl, który z czasem odziedziczył nazwę po słynnym arystokracie włoskim: Negroni.</value>
   </data>
   <data name="negroniIngredient1" xml:space="preserve">
-    <value>30 ml gin</value>
+    <value>- 30 ml gin</value>
   </data>
   <data name="negroniIngredient2" xml:space="preserve">
-    <value>30 ml Rosso Vermuth</value>
+    <value>- 30 ml Rosso Vermuth</value>
   </data>
   <data name="negroniIngredient3" xml:space="preserve">
-    <value>30 ml Campari</value>
+    <value>- 30 ml Campari</value>
   </data>
   <data name="negroniIngredient4" xml:space="preserve">
-    <value>zest ze skórki pomarańczy</value>
+    <value>- zest ze skórki pomarańczy</value>
   </data>
   <data name="negroniRecipe" xml:space="preserve">
     <value>Gin, vermuth oraz Campari wlej do szklanicy pełnej lodu. Wymieszaj do czasu dobrego schłodzenia, następnie przelej zawartość do szklanki typu short pełnej lodu. Na koniec wyciśnij zest oraz wrzuć go do koktajlu.</value>
@@ -322,16 +322,16 @@
     <value />
   </data>
   <data name="oldFashionedIngredient1" xml:space="preserve">
-    <value>40 ml bourbon'u</value>
+    <value>- 40 ml bourbon'u</value>
   </data>
   <data name="oldFashionedIngredient2" xml:space="preserve">
-    <value>10 ml syropu cukrowego/ łyżka curku trzcinowego</value>
+    <value>- 10 ml syropu cukrowego/ łyżka curku trzcinowego</value>
   </data>
   <data name="oldFashionedIngredient3" xml:space="preserve">
-    <value>2-3 krople Angostury</value>
+    <value>- 2-3 krople Angostury</value>
   </data>
   <data name="oldFashionedIngredient4" xml:space="preserve">
-    <value>zest ze skórki pomarańczy</value>
+    <value>- zest ze skórki pomarańczy</value>
   </data>
   <data name="oldFashionedRecipe" xml:space="preserve">
     <value>Do szklanicy barmańskiej pełnej lodu wlej bourbon, cukier oraz Angosturę. Tak przygotowany koktajl mieszaj do czasu aż składniki się nie połączą w jednolity płyn. Przelej do szklanki typu short pełnej lodu, następnie zaromatyzuj zestem z pomarańczy.</value>
@@ -343,16 +343,16 @@
     <value>Przepis na napój, w którym dominuje kokosowa nuta, pochodzi z Karaibów, a dokładniej z Portoryko. Wyspa ta kusi rajskimi plażami i idealnymi warunkami do wypoczynku, a widok turystów sączących eleganckie drinki jest tu normą.</value>
   </data>
   <data name="pinaColadaIngredient1" xml:space="preserve">
-    <value>40 ml białego rumu</value>
+    <value>- 40 ml białego rumu</value>
   </data>
   <data name="pinaColadaIngredient2" xml:space="preserve">
-    <value>20 ml mleczka kokosowego / syropu kokosowego / likieru kokosowego</value>
+    <value>- 20 ml mleczka kokosowego / syropu kokosowego / likieru kokosowego</value>
   </data>
   <data name="pinaColadaIngredient3" xml:space="preserve">
-    <value>90 ml soku ananasowego</value>
+    <value>- 90 ml soku ananasowego</value>
   </data>
   <data name="pinaColadaIngredient4" xml:space="preserve">
-    <value>splash mleka</value>
+    <value>- splash mleka</value>
   </data>
   <data name="pinaColadaRecipe" xml:space="preserve">
     <value>Do shakera wlej wszystkie składniki oraz energicznie wstrząśnij. Przelej zawartość do szklanki typu hurricane i gotowe.</value>
@@ -364,19 +364,19 @@
     <value>Pornstar Martini drink, który zawdzięcza swoją popularność połączeniu wódki, soku z limonki i przecieru z marakui. Pamiętaj, że jeżeli nie posiadasz w domu musu z marakui użyj świeżego, soczystego miąższu z owocu marakui, który dodasz do drinka. Marakuja sprawia, że nasz drink jest niezwykle orzeźwiający i czuć w nim posmak kwasowości.</value>
   </data>
   <data name="pornstarMartiniIngredient1" xml:space="preserve">
-    <value>60 ml wódki waniliowej / 45 ml wódki i 15 ml syropu waniliowego</value>
+    <value>- 60 ml wódki waniliowej / 45 ml wódki i 15 ml syropu waniliowego</value>
   </data>
   <data name="pornstarMartiniIngredient2" xml:space="preserve">
-    <value>15 ml puree z marakui lub syrop</value>
+    <value>- 15 ml puree z marakui lub syrop</value>
   </data>
   <data name="pornstarMartiniIngredient3" xml:space="preserve">
-    <value>20 ml soku z limonki</value>
+    <value>- 20 ml soku z limonki</value>
   </data>
   <data name="pornstarMartiniIngredient4" xml:space="preserve">
-    <value>20 ml passoa</value>
+    <value>- 20 ml passoa</value>
   </data>
   <data name="pornstarMartiniIngredient5" xml:space="preserve">
-    <value>40 ml champagne</value>
+    <value>- 40 ml champagne</value>
   </data>
   <data name="pornstarMartiniRecipe" xml:space="preserve">
     <value>Dodaj wszystkie składniki poza szampanem do shakera, wstrząśnij z lodem i przelej do kieliszka. Szampana podajemy osobno od drinka, w kieliszku do szotów. Ważnym jest, by poinformować konsumującego drinka, że obie jego części należy pić oddzielnie.</value>
@@ -387,17 +387,17 @@
   <data name="sexOnTheBeachDescription" xml:space="preserve">
     <value>Sex on the Beach w samym USA jest tak popularnym drinkiem, że jego miłośnicy 4 października hucznie obchodzą rok rocznie jego święto, przy okazji obchodów National Vodka Day.</value>
   </data>
-  <data name="sexOnTheBeachIngrecient2" xml:space="preserve">
-    <value>20 ml likieru brzoskwiniowego</value>
-  </data>
   <data name="sexOnTheBeachIngredient1" xml:space="preserve">
-    <value>40 ml wódki</value>
+    <value>- 40 ml wódki</value>
+  </data>
+  <data name="sexOnTheBeachIngredient2" xml:space="preserve">
+    <value>- 20 ml likieru brzoskwiniowego</value>
   </data>
   <data name="sexOnTheBeachIngredient3" xml:space="preserve">
-    <value>60 ml soku pomarańczowego</value>
+    <value>- 60 ml soku pomarańczowego</value>
   </data>
   <data name="sexOnTheBeachIngredient4" xml:space="preserve">
-    <value>top-up sokiem żurawinowym</value>
+    <value>- top-up sokiem żurawinowym</value>
   </data>
   <data name="sexOnTheBeachRecipe" xml:space="preserve">
     <value>Wódkę, likier oraz sok pomarańczowy wlej do szklanki typu hurricane lub long pełną lodu. Wymieszaj łyżką, następnie kilkoma dash'ami wlej sok żurawinowy.</value>
@@ -409,19 +409,19 @@
     <value />
   </data>
   <data name="whiskySourIngredient1" xml:space="preserve">
-    <value>40 ml whisky</value>
+    <value>- 40 ml whisky</value>
   </data>
   <data name="whiskySourIngredient2" xml:space="preserve">
-    <value>20 ml soku z cytryny</value>
+    <value>- 20 ml soku z cytryny</value>
   </data>
   <data name="whiskySourIngredient3" xml:space="preserve">
-    <value>10 ml syropu cukrowego</value>
+    <value>- 10 ml syropu cukrowego</value>
   </data>
   <data name="whiskySourIngredient4" xml:space="preserve">
-    <value>białko jaja </value>
+    <value>- białko jaja </value>
   </data>
   <data name="whiskySourIngredient5" xml:space="preserve">
-    <value>2-3 krople Angostury</value>
+    <value>- 2-3 krople Angostury</value>
   </data>
   <data name="whiskySourRecipe" xml:space="preserve">
     <value>Do pustego shakera wlej białko jaja i energicznie wstrząśnij przez około 10-15 sekund. Następnie zasyp shaker lodem i  dolej resztę składników po czym ponownie wstrząśnij zawartość. Tak przygotowany koktajl przelej do szklanki typu short wypełnionej kostkami lodu.</value>

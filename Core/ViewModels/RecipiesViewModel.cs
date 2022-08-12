@@ -238,7 +238,7 @@ namespace Core.ViewModels
                 CocktailName = Recipies.sexOnTheBeachTitle,
                 CocktailDescription = Recipies.sexOnTheBeachDescription,
                 CocktailIngredient1 = Recipies.sexOnTheBeachIngredient1,
-                CocktailIngredient2 = Recipies.sexOnTheBeachIngrecient2,
+                CocktailIngredient2 = Recipies.sexOnTheBeachIngredient2,
                 CocktailIngredient3 = Recipies.sexOnTheBeachIngredient3,
                 CocktailIngredient4 = Recipies.sexOnTheBeachIngredient4,
                 CocktailRecipe = Recipies.sexOnTheBeachRecipe

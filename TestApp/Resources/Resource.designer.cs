@@ -10647,175 +10647,178 @@ namespace TestApp
 			public const int app_name = 2131558428;
 			
 			// aapt resource value: 0x7F0D001E
-			public const int bitter = 2131558430;
+			public const int back = 2131558430;
 			
 			// aapt resource value: 0x7F0D001F
-			public const int blackWhiteRussian = 2131558431;
+			public const int bitter = 2131558431;
 			
 			// aapt resource value: 0x7F0D0020
-			public const int bloodyMary = 2131558432;
+			public const int blackWhiteRussian = 2131558432;
 			
 			// aapt resource value: 0x7F0D0021
-			public const int bottom_sheet_behavior = 2131558433;
+			public const int bloodyMary = 2131558433;
 			
 			// aapt resource value: 0x7F0D0022
-			public const int character_counter_content_description = 2131558434;
+			public const int bottom_sheet_behavior = 2131558434;
 			
 			// aapt resource value: 0x7F0D0023
-			public const int character_counter_pattern = 2131558435;
+			public const int character_counter_content_description = 2131558435;
 			
 			// aapt resource value: 0x7F0D0024
-			public const int copy = 2131558436;
+			public const int character_counter_pattern = 2131558436;
 			
 			// aapt resource value: 0x7F0D0025
-			public const int copy_toast_msg = 2131558437;
+			public const int copy = 2131558437;
 			
 			// aapt resource value: 0x7F0D0026
-			public const int cosmopolitan = 2131558438;
+			public const int copy_toast_msg = 2131558438;
 			
 			// aapt resource value: 0x7F0D0027
-			public const int cubaLibre = 2131558439;
+			public const int cosmopolitan = 2131558439;
 			
 			// aapt resource value: 0x7F0D0028
-			public const int daiquiri = 2131558440;
+			public const int cubaLibre = 2131558440;
 			
 			// aapt resource value: 0x7F0D0029
-			public const int espressoMartini = 2131558441;
+			public const int daiquiri = 2131558441;
 			
 			// aapt resource value: 0x7F0D002A
-			public const int exit = 2131558442;
+			public const int espressoMartini = 2131558442;
 			
 			// aapt resource value: 0x7F0D002B
-			public const int expand_button_title = 2131558443;
+			public const int exit = 2131558443;
 			
 			// aapt resource value: 0x7F0D002C
-			public const int explore = 2131558444;
+			public const int expand_button_title = 2131558444;
 			
 			// aapt resource value: 0x7F0D002D
-			public const int fab_transformation_scrim_behavior = 2131558445;
+			public const int explore = 2131558445;
 			
 			// aapt resource value: 0x7F0D002E
-			public const int fab_transformation_sheet_behavior = 2131558446;
+			public const int fab_transformation_scrim_behavior = 2131558446;
 			
 			// aapt resource value: 0x7F0D002F
-			public const int fallback_menu_item_copy_link = 2131558447;
+			public const int fab_transformation_sheet_behavior = 2131558447;
 			
 			// aapt resource value: 0x7F0D0030
-			public const int fallback_menu_item_open_in_browser = 2131558448;
+			public const int fallback_menu_item_copy_link = 2131558448;
 			
 			// aapt resource value: 0x7F0D0031
-			public const int fallback_menu_item_share_link = 2131558449;
+			public const int fallback_menu_item_open_in_browser = 2131558449;
 			
 			// aapt resource value: 0x7F0D0032
-			public const int fresh = 2131558450;
+			public const int fallback_menu_item_share_link = 2131558450;
 			
 			// aapt resource value: 0x7F0D0033
-			public const int funFact = 2131558451;
+			public const int fresh = 2131558451;
 			
 			// aapt resource value: 0x7F0D0034
-			public const int hide_bottom_view_on_scroll_behavior = 2131558452;
+			public const int funFact = 2131558452;
 			
 			// aapt resource value: 0x7F0D0035
-			public const int infos = 2131558453;
+			public const int hide_bottom_view_on_scroll_behavior = 2131558453;
 			
 			// aapt resource value: 0x7F0D0036
-			public const int manhattan = 2131558454;
+			public const int infos = 2131558454;
 			
 			// aapt resource value: 0x7F0D0037
-			public const int margharita = 2131558455;
+			public const int manhattan = 2131558455;
 			
 			// aapt resource value: 0x7F0D0038
-			public const int mohito = 2131558456;
+			public const int margharita = 2131558456;
 			
 			// aapt resource value: 0x7F0D0039
-			public const int moscowMule = 2131558457;
+			public const int mohito = 2131558457;
 			
 			// aapt resource value: 0x7F0D003A
-			public const int mostImportantRecipies = 2131558458;
+			public const int moscowMule = 2131558458;
 			
 			// aapt resource value: 0x7F0D003B
-			public const int mtrl_chip_close_icon_content_description = 2131558459;
+			public const int mostImportantRecipies = 2131558459;
 			
 			// aapt resource value: 0x7F0D003C
-			public const int mustHaveForCocktails = 2131558460;
+			public const int mtrl_chip_close_icon_content_description = 2131558460;
 			
 			// aapt resource value: 0x7F0D003D
-			public const int mustHaveStuff = 2131558461;
+			public const int mustHaveForCocktails = 2131558461;
 			
 			// aapt resource value: 0x7F0D003E
-			public const int mustKnown = 2131558462;
+			public const int mustHaveStuff = 2131558462;
 			
 			// aapt resource value: 0x7F0D003F
-			public const int negroni = 2131558463;
+			public const int mustKnown = 2131558463;
 			
 			// aapt resource value: 0x7F0D0040
-			public const int not_set = 2131558464;
+			public const int negroni = 2131558464;
 			
 			// aapt resource value: 0x7F0D0041
-			public const int oldFashioned = 2131558465;
+			public const int not_set = 2131558465;
 			
 			// aapt resource value: 0x7F0D0042
-			public const int password_toggle_content_description = 2131558466;
+			public const int oldFashioned = 2131558466;
 			
 			// aapt resource value: 0x7F0D0043
-			public const int path_password_eye = 2131558467;
+			public const int password_toggle_content_description = 2131558467;
 			
 			// aapt resource value: 0x7F0D0044
-			public const int path_password_eye_mask_strike_through = 2131558468;
+			public const int path_password_eye = 2131558468;
 			
 			// aapt resource value: 0x7F0D0045
-			public const int path_password_eye_mask_visible = 2131558469;
+			public const int path_password_eye_mask_strike_through = 2131558469;
 			
 			// aapt resource value: 0x7F0D0046
-			public const int path_password_strike_through = 2131558470;
+			public const int path_password_eye_mask_visible = 2131558470;
 			
 			// aapt resource value: 0x7F0D0047
-			public const int pinaColada = 2131558471;
+			public const int path_password_strike_through = 2131558471;
 			
 			// aapt resource value: 0x7F0D0048
-			public const int pornstarMartini = 2131558472;
+			public const int pinaColada = 2131558472;
 			
 			// aapt resource value: 0x7F0D0049
-			public const int preference_copied = 2131558473;
+			public const int pornstarMartini = 2131558473;
 			
 			// aapt resource value: 0x7F0D004A
-			public const int recipe = 2131558474;
+			public const int preference_copied = 2131558474;
 			
 			// aapt resource value: 0x7F0D004B
-			public const int recipies = 2131558475;
+			public const int recipe = 2131558475;
 			
 			// aapt resource value: 0x7F0D004C
-			public const int recipiesButton = 2131558476;
+			public const int recipies = 2131558476;
 			
 			// aapt resource value: 0x7F0D004D
-			public const int search_menu_title = 2131558477;
+			public const int recipiesButton = 2131558477;
 			
 			// aapt resource value: 0x7F0D004E
-			public const int sexOnTheBeach = 2131558478;
+			public const int search_menu_title = 2131558478;
 			
 			// aapt resource value: 0x7F0D004F
-			public const int sour = 2131558479;
+			public const int sexOnTheBeach = 2131558479;
 			
 			// aapt resource value: 0x7F0D0050
-			public const int status_bar_notification_info_overflow = 2131558480;
+			public const int sour = 2131558480;
 			
 			// aapt resource value: 0x7F0D0051
-			public const int strong = 2131558481;
+			public const int status_bar_notification_info_overflow = 2131558481;
 			
 			// aapt resource value: 0x7F0D0052
-			public const int summary_collapsed_preference_list = 2131558482;
+			public const int strong = 2131558482;
 			
 			// aapt resource value: 0x7F0D0053
-			public const int sweet = 2131558483;
+			public const int summary_collapsed_preference_list = 2131558483;
 			
 			// aapt resource value: 0x7F0D0054
-			public const int v7_preference_off = 2131558484;
+			public const int sweet = 2131558484;
 			
 			// aapt resource value: 0x7F0D0055
-			public const int v7_preference_on = 2131558485;
+			public const int v7_preference_off = 2131558485;
 			
 			// aapt resource value: 0x7F0D0056
-			public const int whiskySour = 2131558486;
+			public const int v7_preference_on = 2131558486;
+			
+			// aapt resource value: 0x7F0D0057
+			public const int whiskySour = 2131558487;
 			
 			static String()
 			{
