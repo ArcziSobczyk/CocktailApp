@@ -1,29 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-    <ScrollView
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:layout_centerInParent="true"
+        android:layout_height="match_parent"
         android:background="@drawable/roundborder"
-        android:elevation="5dp">
-        <LinearLayout
+        android:layout_margin="45dp"
+        android:elevation="10dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/cocktailName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:layout_margin="5dp"
+            android:textSize="30dp"
+            android:text="NAZWA"
+            app:MvxBind="Text CocktailModel.CocktailName"/>
+        <RelativeLayout
+            android:id="@+id/relativeLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true">
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="5dp"
-                android:textSize="30dp"
-                android:text="NAZWA"
-                app:MvxBind="Text CocktailModel.CocktailName"/>
-            <TextView
+                android:id="@+id/cocktailIngredient1"
+                android:layout_below="@+id/cocktailName"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
@@ -31,6 +36,8 @@
                 android:text="1 SKŁADNIK"
                 app:MvxBind='Text CocktailModel.CocktailIngredient1'/>
             <TextView
+                android:id="@+id/cocktailIngredient2"
+                android:layout_below="@+id/cocktailIngredient1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
@@ -38,6 +45,8 @@
                 android:text="2 SKŁADNIK"
                 app:MvxBind="Text CocktailModel.CocktailIngredient2"/>
             <TextView
+                android:id="@+id/cocktailIngredient3"
+                android:layout_below="@+id/cocktailIngredient2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
@@ -45,6 +54,8 @@
                 android:text="3 SKŁADNIK"
                 app:MvxBind="Text CocktailModel.CocktailIngredient3"/>
             <TextView
+                android:id="@+id/cocktailIngredient4"
+                android:layout_below="@+id/cocktailIngredient3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
@@ -52,6 +63,8 @@
                 android:text="4 SKŁADNIK"
                 app:MvxBind='Text CocktailModel.CocktailIngredient4; Visibility Visibility(IngredientFour)'/>
             <TextView
+                android:id="@+id/cocktailIngredient5"
+                android:layout_below="@+id/cocktailIngredient4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
@@ -59,25 +72,23 @@
                 android:text="5 SKŁADNIK"
                 app:MvxBind='Text CocktailModel.CocktailIngredient5; Visibility Visibility(IngredientFive)'/>
             <TextView
+                android:id="@+id/cocktailIngredient6"
+                android:layout_below="@+id/cocktailIngredient5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:textSize="15dp"
                 android:text="6 SKŁADNIK"
                 app:MvxBind='Text CocktailModel.CocktailIngredient6; Visibility Visibility(IngredientSix)'/>
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="7dp"
-                android:textSize="20dp"
-                android:text="PRZEPIS"
-                app:MvxBind="Text CocktailModel.CocktailRecipe"/>
-        </LinearLayout>
-    </ScrollView>
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_margin="5dp"
-        android:text="@string/infos"/>
-</RelativeLayout>
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/cocktailRecipe"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textSize="20dp"
+            android:text="PRZEPIS"
+            app:MvxBind="Text CocktailModel.CocktailRecipe"/>
+    </RelativeLayout>
+</LinearLayout>

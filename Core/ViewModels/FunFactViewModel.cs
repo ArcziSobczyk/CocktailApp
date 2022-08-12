@@ -12,5 +12,8 @@ namespace Core.ViewModels
         {
             NavigationService.Close(this);
         }
+
+        private IMvxCommand backCommand;
+        public IMvxCommand BackCommand => backCommand = backCommand ?? new MvxCommand(onBackPressed);
     }
 }

@@ -117,6 +117,45 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="blackWhiteRussianDescription" xml:space="preserve">
+    <value>To klasyka dla każdego, kto lubi drinki z wódką i kawą oraz ulubiony koktajl Biga Lebowskiego. Słodki i mocny koktajl dla niecierpliwych, bo przygotowanie jego zajmuje jakieś 12 sekund.</value>
+  </data>
+  <data name="blackWhiteRussianIngredient1" xml:space="preserve">
+    <value>60 ml wódki</value>
+  </data>
+  <data name="blackWhiteRussianIngredient2" xml:space="preserve">
+    <value>30 ml likieru kawowego</value>
+  </data>
+  <data name="blackWhiteRussianIngredient3" xml:space="preserve">
+    <value>30 ml śmietanki 30% / mleka (w wariancie White Russian)</value>
+  </data>
+  <data name="blackWhiteRussianRecipe" xml:space="preserve">
+    <value>Wypełnij szklankę typu short w kolejności - wódką, likierem i śmietanką / mlekiem. Gotowe!</value>
+  </data>
+  <data name="blackWhiteRussianTitle" xml:space="preserve">
+    <value>Black / White Russian</value>
+  </data>
+  <data name="cosmopolitanDescription" xml:space="preserve">
+    <value>Cosmopolitan to drink na każdą okazję, którym możesz się cieszyć i w barze, i w domowym zaciszu. Prosty przepis, elegancki wygląd – oto najlepsza recepta na relaks z koleżankami i filmowym koktajlem.</value>
+  </data>
+  <data name="cosmopolitanIngredient1" xml:space="preserve">
+    <value>40 ml wódki</value>
+  </data>
+  <data name="cosmopolitanIngredient2" xml:space="preserve">
+    <value>20 ml Triple Sec / Cointreau</value>
+  </data>
+  <data name="cosmopolitanIngredient3" xml:space="preserve">
+    <value>30 ml sok żurawinowy</value>
+  </data>
+  <data name="cosmopolitanIngredient4" xml:space="preserve">
+    <value>5 ml soku z cytryny</value>
+  </data>
+  <data name="cosmopolitanRecipe" xml:space="preserve">
+    <value>Do shakera wlej wszystkie składniki oraz energicznie wstrząśnij. Przelej poprzez double-strain do schłodzonej koktajlówki.</value>
+  </data>
+  <data name="cosmopolitanTitle" xml:space="preserve">
+    <value>Cosmopolitan</value>
+  </data>
   <data name="cubaLibreDescription" xml:space="preserve">
     <value />
   </data>
@@ -135,6 +174,24 @@
   <data name="cubaLibreTitle" xml:space="preserve">
     <value>Cuba Libre</value>
   </data>
+  <data name="manhattanDescription" xml:space="preserve">
+    <value>Drink Manhattan w dziejach sztuki barmańskiej zapisał się jako pierwszy drink z wermutem oraz wielki poprzednik dwóch innych klasyków: Martineza i Martini. Choć lista drinków z whiskey jest długa, Manhattan zajmuje na niej wyjątkowe miejsce. Dlaczego? Bez niego nie powstałby słynny drink Martini kojarzony z przygodami Jamesa Bonda.</value>
+  </data>
+  <data name="manhattanIngredient1" xml:space="preserve">
+    <value>60 ml bourbon'u</value>
+  </data>
+  <data name="manhattanIngredient2" xml:space="preserve">
+    <value>30 ml słodkiego wermutu</value>
+  </data>
+  <data name="manhattanIngredient3" xml:space="preserve">
+    <value>2-3 krople Angostury</value>
+  </data>
+  <data name="manhattanRecipe" xml:space="preserve">
+    <value>Wszystkie składniki należy wlać do shakera z lodem i energicznie wymieszać. Następnie przelać poprzez double-strain do dobrze schłodzonej koktajlówki.</value>
+  </data>
+  <data name="manhattanTitle" xml:space="preserve">
+    <value>Manhattan</value>
+  </data>
   <data name="margharitaDescription" xml:space="preserve">
     <value>Drink margarita pochodzi z Meksyku. Jego nazwa prawdopodobnie wzięła się od imienia kobiety, dla której został przygotowany po raz pierwszy. To pyszny, orzeźwiający napój najczęściej przygotowywany z dodatkiem cytryny. Można go również podawać z innymi owocami lub sokami owocowymi - szczególną popularnością cieszy się wersja truskawkowa. Ważnym elementem podania Margarity jest crustowanie brzegu szklanki, w której podaje się koktajl.</value>
   </data>
@@ -151,7 +208,7 @@
     <value>10 ml syropu cukrowego</value>
   </data>
   <data name="margharitaRecipe" xml:space="preserve">
-    <value>Do shakera wlewamy tequile, triple sec, sok z limonki, wrzucamy kostki lodu i shake-ujemy. Zawartość shakera wlewamy do kieliszka koktajlowego. Smacznego!</value>
+    <value>Do shakera wlej tequile, triple sec, sok z limonki i syrop cukrowy. Zawartość shakera przelej do schłodzonego kieliszka koktajlowego.</value>
   </data>
   <data name="margharitaTitle" xml:space="preserve">
     <value>Margharita</value>
@@ -180,6 +237,45 @@
   <data name="mohitoTitle" xml:space="preserve">
     <value>Mojito</value>
   </data>
+  <data name="moscowMuleDescription" xml:space="preserve">
+    <value />
+  </data>
+  <data name="moscowMuleIngredient1" xml:space="preserve">
+    <value>40 ml wódki</value>
+  </data>
+  <data name="moscowMuleIngredient2" xml:space="preserve">
+    <value>150 ml piwa imbirowego</value>
+  </data>
+  <data name="moscowMuleIngredient3" xml:space="preserve">
+    <value>20 ml soku z limonki</value>
+  </data>
+  <data name="moscowMuleRecipe" xml:space="preserve">
+    <value>Szklankę typu long zasyp kruszonym lodem. Wlej wódkę i sok z limonki oraz wymieszaj. Na koniec uzupełnij piwem imbirowym oraz kruszonym lodem.</value>
+  </data>
+  <data name="moscowMuleTitle" xml:space="preserve">
+    <value>Moscow Mule</value>
+  </data>
+  <data name="oldFashionedDescription" xml:space="preserve">
+    <value />
+  </data>
+  <data name="oldFashionedIngredient1" xml:space="preserve">
+    <value>40 ml bourbon'u</value>
+  </data>
+  <data name="oldFashionedIngredient2" xml:space="preserve">
+    <value>10 ml syropu cukrowego/ łyżka curku trzcinowego</value>
+  </data>
+  <data name="oldFashionedIngredient3" xml:space="preserve">
+    <value>2-3 krople Angostury</value>
+  </data>
+  <data name="oldFashionedIngredient4" xml:space="preserve">
+    <value>zest ze skórki pomarańczy</value>
+  </data>
+  <data name="oldFashionedRecipe" xml:space="preserve">
+    <value>Do szklanicy barmańskiej pełnej lodu wlej bourbon, cukier oraz Angosturę. Tak przygotowany koktajl mieszaj do czasu aż składniki się nie połączą w jednolity płyn. Przelej do szklanki typu short pełnej lodu, następnie zaromatyzuj zestem z pomarańczy.</value>
+  </data>
+  <data name="oldFashionedTitle" xml:space="preserve">
+    <value>Old Fashioned</value>
+  </data>
   <data name="pinaColadaDescription" xml:space="preserve">
     <value>Przepis na napój, w którym dominuje kokosowa nuta, pochodzi z Karaibów, a dokładniej z Portoryko. Wyspa ta kusi rajskimi plażami i idealnymi warunkami do wypoczynku, a widok turystów sączących eleganckie drinki jest tu normą.</value>
   </data>
@@ -196,9 +292,33 @@
     <value>splash mleka</value>
   </data>
   <data name="pinaColadaRecipe" xml:space="preserve">
-    <value>Do shakera wlewamy wszystkie składniki, energicznie wstrząsamy. Przelewamy do szklanki typu hurricane i gotowe.</value>
+    <value>Do shakera wlej wszystkie składniki oraz energicznie wstrząśnij. Przelej zawartość do szklanki typu hurricane i gotowe.</value>
   </data>
   <data name="pinaColadaTitle" xml:space="preserve">
     <value>Pina Colada</value>
+  </data>
+  <data name="whiskySourDescription" xml:space="preserve">
+    <value />
+  </data>
+  <data name="whiskySourIngredient1" xml:space="preserve">
+    <value>40 ml whisky</value>
+  </data>
+  <data name="whiskySourIngredient2" xml:space="preserve">
+    <value>20 ml soku z cytryny</value>
+  </data>
+  <data name="whiskySourIngredient3" xml:space="preserve">
+    <value>10 ml syropu cukrowego</value>
+  </data>
+  <data name="whiskySourIngredient4" xml:space="preserve">
+    <value>białko jaja </value>
+  </data>
+  <data name="whiskySourIngredient5" xml:space="preserve">
+    <value>2-3 krople Angostury</value>
+  </data>
+  <data name="whiskySourRecipe" xml:space="preserve">
+    <value>Do pustego shakera wlej białko jaja i energicznie wstrząśnij przez około 10-15 sekund. Następnie zasyp shaker lodem i  dolej resztę składników po czym ponownie wstrząśnij zawartość. Tak przygotowany koktajl przelej do szklanki typu short wypełnionej kostkami lodu.</value>
+  </data>
+  <data name="whiskySourTitle" xml:space="preserve">
+    <value>WhiskySour</value>
   </data>
 </root>

@@ -61,6 +61,123 @@ namespace Core.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to To klasyka dla każdego, kto lubi drinki z wódką i kawą oraz ulubiony koktajl Biga Lebowskiego. Słodki i mocny koktajl dla niecierpliwych, bo przygotowanie jego zajmuje jakieś 12 sekund..
+        /// </summary>
+        internal static string blackWhiteRussianDescription {
+            get {
+                return ResourceManager.GetString("blackWhiteRussianDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 60 ml wódki.
+        /// </summary>
+        internal static string blackWhiteRussianIngredient1 {
+            get {
+                return ResourceManager.GetString("blackWhiteRussianIngredient1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 30 ml likieru kawowego.
+        /// </summary>
+        internal static string blackWhiteRussianIngredient2 {
+            get {
+                return ResourceManager.GetString("blackWhiteRussianIngredient2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 30 ml śmietanki 30% / mleka (w wariancie White Russian).
+        /// </summary>
+        internal static string blackWhiteRussianIngredient3 {
+            get {
+                return ResourceManager.GetString("blackWhiteRussianIngredient3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Wypełnij szklankę typu short w kolejności - wódką, likierem i śmietanką / mlekiem. Gotowe!.
+        /// </summary>
+        internal static string blackWhiteRussianRecipe {
+            get {
+                return ResourceManager.GetString("blackWhiteRussianRecipe", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Black / White Russian.
+        /// </summary>
+        internal static string blackWhiteRussianTitle {
+            get {
+                return ResourceManager.GetString("blackWhiteRussianTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Cosmopolitan to drink na każdą okazję, którym możesz się cieszyć i w barze, i w domowym zaciszu. Prosty przepis, elegancki wygląd – oto najlepsza recepta na relaks z koleżankami i filmowym koktajlem..
+        /// </summary>
+        internal static string cosmopolitanDescription {
+            get {
+                return ResourceManager.GetString("cosmopolitanDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 40 ml wódki.
+        /// </summary>
+        internal static string cosmopolitanIngredient1 {
+            get {
+                return ResourceManager.GetString("cosmopolitanIngredient1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 20 ml Triple Sec / Cointreau.
+        /// </summary>
+        internal static string cosmopolitanIngredient2 {
+            get {
+                return ResourceManager.GetString("cosmopolitanIngredient2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 30 ml sok żurawinowy.
+        /// </summary>
+        internal static string cosmopolitanIngredient3 {
+            get {
+                return ResourceManager.GetString("cosmopolitanIngredient3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 5 ml soku z cytryny.
+        /// </summary>
+        internal static string cosmopolitanIngredient4 {
+            get {
+                return ResourceManager.GetString("cosmopolitanIngredient4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Do shakera wlej wszystkie składniki oraz energicznie wstrząśnij. Przelej poprzez double-strain do schłodzonej koktajlówki..
+        /// </summary>
+        internal static string cosmopolitanRecipe {
+            get {
+                return ResourceManager.GetString("cosmopolitanRecipe", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Cosmopolitan.
+        /// </summary>
+        internal static string cosmopolitanTitle {
+            get {
+                return ResourceManager.GetString("cosmopolitanTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to .
         /// </summary>
         internal static string cubaLibreDescription {
@@ -115,6 +232,60 @@ namespace Core.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Drink Manhattan w dziejach sztuki barmańskiej zapisał się jako pierwszy drink z wermutem oraz wielki poprzednik dwóch innych klasyków: Martineza i Martini. Choć lista drinków z whiskey jest długa, Manhattan zajmuje na niej wyjątkowe miejsce. Dlaczego? Bez niego nie powstałby słynny drink Martini kojarzony z przygodami Jamesa Bonda..
+        /// </summary>
+        internal static string manhattanDescription {
+            get {
+                return ResourceManager.GetString("manhattanDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 60 ml bourbon&apos;u.
+        /// </summary>
+        internal static string manhattanIngredient1 {
+            get {
+                return ResourceManager.GetString("manhattanIngredient1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 30 ml słodkiego wermutu.
+        /// </summary>
+        internal static string manhattanIngredient2 {
+            get {
+                return ResourceManager.GetString("manhattanIngredient2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 2-3 krople Angostury.
+        /// </summary>
+        internal static string manhattanIngredient3 {
+            get {
+                return ResourceManager.GetString("manhattanIngredient3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Wszystkie składniki należy wlać do shakera z lodem i energicznie wymieszać. Następnie przelać poprzez double-strain do dobrze schłodzonej koktajlówki..
+        /// </summary>
+        internal static string manhattanRecipe {
+            get {
+                return ResourceManager.GetString("manhattanRecipe", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Manhattan.
+        /// </summary>
+        internal static string manhattanTitle {
+            get {
+                return ResourceManager.GetString("manhattanTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Drink margarita pochodzi z Meksyku. Jego nazwa prawdopodobnie wzięła się od imienia kobiety, dla której został przygotowany po raz pierwszy. To pyszny, orzeźwiający napój najczęściej przygotowywany z dodatkiem cytryny. Można go również podawać z innymi owocami lub sokami owocowymi - szczególną popularnością cieszy się wersja truskawkowa. Ważnym elementem podania Margarity jest crustowanie brzegu szklanki, w której podaje się koktajl..
         /// </summary>
         internal static string margharitaDescription {
@@ -160,7 +331,7 @@ namespace Core.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Do shakera wlewamy tequile, triple sec, sok z limonki, wrzucamy kostki lodu i shake-ujemy. Zawartość shakera wlewamy do kieliszka koktajlowego. Smacznego!.
+        ///   Looks up a localized string similar to Do shakera wlej tequile, triple sec, sok z limonki i syrop cukrowy. Zawartość shakera przelej do schłodzonego kieliszka koktajlowego..
         /// </summary>
         internal static string margharitaRecipe {
             get {
@@ -250,6 +421,123 @@ namespace Core.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        internal static string moscowMuleDescription {
+            get {
+                return ResourceManager.GetString("moscowMuleDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 40 ml wódki.
+        /// </summary>
+        internal static string moscowMuleIngredient1 {
+            get {
+                return ResourceManager.GetString("moscowMuleIngredient1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 150 ml piwa imbirowego.
+        /// </summary>
+        internal static string moscowMuleIngredient2 {
+            get {
+                return ResourceManager.GetString("moscowMuleIngredient2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 20 ml soku z limonki.
+        /// </summary>
+        internal static string moscowMuleIngredient3 {
+            get {
+                return ResourceManager.GetString("moscowMuleIngredient3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Szklankę typu long zasyp kruszonym lodem. Wlej wódkę i sok z limonki oraz wymieszaj. Na koniec uzupełnij piwem imbirowym oraz kruszonym lodem..
+        /// </summary>
+        internal static string moscowMuleRecipe {
+            get {
+                return ResourceManager.GetString("moscowMuleRecipe", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Moscow Mule.
+        /// </summary>
+        internal static string moscowMuleTitle {
+            get {
+                return ResourceManager.GetString("moscowMuleTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        internal static string oldFashionedDescription {
+            get {
+                return ResourceManager.GetString("oldFashionedDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 40 ml bourbon&apos;u.
+        /// </summary>
+        internal static string oldFashionedIngredient1 {
+            get {
+                return ResourceManager.GetString("oldFashionedIngredient1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 10 ml syropu cukrowego/ łyżka curku trzcinowego.
+        /// </summary>
+        internal static string oldFashionedIngredient2 {
+            get {
+                return ResourceManager.GetString("oldFashionedIngredient2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 2-3 krople Angostury.
+        /// </summary>
+        internal static string oldFashionedIngredient3 {
+            get {
+                return ResourceManager.GetString("oldFashionedIngredient3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to zest ze skórki pomarańczy.
+        /// </summary>
+        internal static string oldFashionedIngredient4 {
+            get {
+                return ResourceManager.GetString("oldFashionedIngredient4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Do szklanicy barmańskiej pełnej lodu wlej bourbon, cukier oraz Angosturę. Tak przygotowany koktajl mieszaj do czasu aż składniki się nie połączą w jednolity płyn. Przelej do szklanki typu short pełnej lodu, następnie zaromatyzuj zestem z pomarańczy..
+        /// </summary>
+        internal static string oldFashionedRecipe {
+            get {
+                return ResourceManager.GetString("oldFashionedRecipe", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Old Fashioned.
+        /// </summary>
+        internal static string oldFashionedTitle {
+            get {
+                return ResourceManager.GetString("oldFashionedTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Przepis na napój, w którym dominuje kokosowa nuta, pochodzi z Karaibów, a dokładniej z Portoryko. Wyspa ta kusi rajskimi plażami i idealnymi warunkami do wypoczynku, a widok turystów sączących eleganckie drinki jest tu normą..
         /// </summary>
         internal static string pinaColadaDescription {
@@ -295,7 +583,7 @@ namespace Core.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Do shakera wlewamy wszystkie składniki, energicznie wstrząsamy. Przelewamy do szklanki typu hurricane i gotowe..
+        ///   Looks up a localized string similar to Do shakera wlej wszystkie składniki oraz energicznie wstrząśnij. Przelej zawartość do szklanki typu hurricane i gotowe..
         /// </summary>
         internal static string pinaColadaRecipe {
             get {
@@ -309,6 +597,78 @@ namespace Core.Resources {
         internal static string pinaColadaTitle {
             get {
                 return ResourceManager.GetString("pinaColadaTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        internal static string whiskySourDescription {
+            get {
+                return ResourceManager.GetString("whiskySourDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 40 ml whisky.
+        /// </summary>
+        internal static string whiskySourIngredient1 {
+            get {
+                return ResourceManager.GetString("whiskySourIngredient1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 20 ml soku z cytryny.
+        /// </summary>
+        internal static string whiskySourIngredient2 {
+            get {
+                return ResourceManager.GetString("whiskySourIngredient2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 10 ml syropu cukrowego.
+        /// </summary>
+        internal static string whiskySourIngredient3 {
+            get {
+                return ResourceManager.GetString("whiskySourIngredient3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to białko jaja .
+        /// </summary>
+        internal static string whiskySourIngredient4 {
+            get {
+                return ResourceManager.GetString("whiskySourIngredient4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 2-3 krople Angostury.
+        /// </summary>
+        internal static string whiskySourIngredient5 {
+            get {
+                return ResourceManager.GetString("whiskySourIngredient5", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Do pustego shakera wlej białko jaja i energicznie wstrząśnij przez około 10-15 sekund. Następnie zasyp shaker lodem i  dolej resztę składników po czym ponownie wstrząśnij zawartość. Tak przygotowany koktajl przelej do szklanki typu short wypełnionej kostkami lodu..
+        /// </summary>
+        internal static string whiskySourRecipe {
+            get {
+                return ResourceManager.GetString("whiskySourRecipe", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to WhiskySour.
+        /// </summary>
+        internal static string whiskySourTitle {
+            get {
+                return ResourceManager.GetString("whiskySourTitle", resourceCulture);
             }
         }
     }

@@ -1,9 +1,10 @@
 <resources>
-    <string name="app_name">CocktailApp</string>
+    <string name="app_name">#CocktailApp</string>
     <string name="action_settings">Settings</string>
 	<string name="explore">Odkrywaj</string>
-	<string name="recipies">Przepisy</string>
-	<string name="recipe">Przepis</string>
+	<string name="recipies">#Przepisy</string>
+	<string name="recipiesButton">Przepisy</string>
+	<string name="recipe">#Przepis</string>
 	<string name="funFact">Ciekawostki</string>
 	<string name="infos">Informacje</string>
 	<string name="exit">Wyjdź</string>
@@ -27,14 +28,15 @@
 	<string name="oldFashioned">Old Fashioned</string>
 	<string name="blackWhiteRussian">Black/White Russian</string>
 	<string name="sexOnTheBeach">Sex On The Beach</string>
+	<string name="bloodyMary">Krwawa Mary</string>
 	
 	
-	<string name="sweet">Słodkie</string>
-	<string name="sour">Kwaśne</string>
-	<string name="bitter">Wytrawne</string>
-	<string name="strong">Mocne</string>
-	<string name="fresh">Orzeźwiające</string>
-	<string name="mustKnown">Musisz Znać</string>
+	<string name="sweet">#Słodkie</string>
+	<string name="sour">#Kwaśne</string>
+	<string name="bitter">#Wytrawne</string>
+	<string name="strong">#Mocne</string>
+	<string name="fresh">#Orzeźwiające</string>
+	<string name="mustKnown">#Musisz Znać</string>
 	
 	
 </resources>
