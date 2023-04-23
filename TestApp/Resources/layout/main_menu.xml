@@ -27,7 +27,7 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_margin="5dp"
-            android:layout_weight="3"
+            android:layout_weight="2"
             android:text="@string/recipiesButton"
             style="@style/buttonStyle"
             app:MvxBind="Click RecipiesCommand"/>
@@ -35,10 +35,18 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_margin="5dp"
-            android:layout_weight="3"
+            android:layout_weight="2"
             android:text="@string/funFact"
             style="@style/buttonStyle"
             app:MvxBind="Click FunFactCommand"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="5dp"
+            android:layout_weight="2"
+            android:text="@string/ownRecipies"
+            style="@style/buttonStyle"
+            app:MvxBind="Click OwnRecipiesCommand"/>
         <Button
             android:id="@+id/exitButton"
             android:layout_below="@+id/midLane"
@@ -58,5 +66,5 @@
         android:layout_margin="10dp"
         android:autoSizeMaxTextSize="20sp"
         android:layout_gravity="center"
-        android:text="All rights reserved © 2022"/>
+        android:text="All rights reserved © 2023"/>
 </RelativeLayout>

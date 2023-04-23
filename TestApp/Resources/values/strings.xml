@@ -5,9 +5,11 @@
 	<string name="recipies">#Przepisy</string>
 	<string name="recipiesButton">Przepisy</string>
 	<string name="recipe">#Przepis</string>
+	<string name="myRecipe">#Mój Przepis</string>
 	<string name="funFact">Ciekawostki</string>
-	<string name="infos">Informacje</string>
+	<string name="ownRecipies">Własne</string>
 	<string name="exit">Wyjdź</string>
+	<string name="add">Dodaj</string>
 	<string name="mustHaveForCocktails">Niezbędnik barmana przed imprezą</string>
 	<string name="mustHaveStuff">Podstawowy sprzęt dla barmana</string>
 	<string name="mostImportantRecipies">Najważniejsze przepisy</string>

@@ -20,9 +20,11 @@ namespace Core.ViewModels
         #region Command
         private IMvxAsyncCommand recipiesCommand;
         private IMvxAsyncCommand funFactCommand;
+        private IMvxAsyncCommand ownRecipies;
         private IMvxCommand exitCommand;
         public IMvxAsyncCommand RecipiesCommand => recipiesCommand = recipiesCommand ?? new MvxAsyncCommand(GoToRecipies);
         public IMvxAsyncCommand FunFactCommand => funFactCommand = funFactCommand ?? new MvxAsyncCommand(GoToFunFact);
+        public IMvxAsyncCommand OwnRecipiesCommand => ownRecipies = ownRecipies ?? new MvxAsyncCommand(GoToOwnRecipies);
         public IMvxCommand ExitCommand => exitCommand = exitCommand ?? new MvxCommand(onBackPressed);
         #endregion
 
@@ -34,6 +36,10 @@ namespace Core.ViewModels
         private async Task GoToFunFact()
         {
             await NavigationService.Navigate<FunFactViewModel>();
+        }
+        private async Task GoToOwnRecipies()
+        {
+            await NavigationService.Navigate<OwnRecipiesViewModel>();
         }
         #endregion
     }
