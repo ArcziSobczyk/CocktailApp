@@ -24,10 +24,12 @@
             android:textSize="30dp"
             android:text="NAZWA"
             app:MvxBind="Text CocktailModel.CocktailName"/>
-        <RelativeLayout
+        <LinearLayout
             android:id="@+id/relativeLayout1"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical"
             android:layout_margin="15dp"
             android:layout_centerInParent="true">
             <TextView
@@ -84,7 +86,7 @@
                 android:textSize="15dp"
                 android:text="6 SKŁADNIK"
                 app:MvxBind='Text CocktailModel.CocktailIngredient6; Visibility Visibility(IngredientSix)'/>
-        </RelativeLayout>
+        </LinearLayout>
         <TextView
             android:id="@+id/cocktailRecipe"
             android:layout_alignParentBottom="true"

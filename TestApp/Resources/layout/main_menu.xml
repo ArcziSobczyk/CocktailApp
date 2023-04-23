@@ -22,12 +22,12 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:layout_margin="5dp"
-        android:weightSum="2">
+        android:weightSum="7">
         <Button
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_margin="5dp"
-            android:layout_weight="1"
+            android:layout_weight="3"
             android:text="@string/recipiesButton"
             style="@style/buttonStyle"
             app:MvxBind="Click RecipiesCommand"/>
@@ -35,10 +35,19 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_margin="5dp"
-            android:layout_weight="1"
+            android:layout_weight="3"
             android:text="@string/funFact"
             style="@style/buttonStyle"
             app:MvxBind="Click FunFactCommand"/>
+        <Button
+            android:id="@+id/exitButton"
+            android:layout_below="@+id/midLane"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:text="@string/exit"
+            app:MvxBind="Click ExitCommand"/>
     </LinearLayout>
     <TextView
         android:id="@+id/footer"
