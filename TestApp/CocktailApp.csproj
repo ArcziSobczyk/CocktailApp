@@ -65,6 +65,7 @@
   <ItemGroup>
     <Compile Include="MainApplication.cs" />
     <Compile Include="Setup.cs" />
+    <Compile Include="Views\BaseView.cs" />
     <Compile Include="Views\AddRecipeView.cs" />
     <Compile Include="Views\OwnRecipiesView.cs" />
     <Compile Include="Views\FunFactView.cs" />

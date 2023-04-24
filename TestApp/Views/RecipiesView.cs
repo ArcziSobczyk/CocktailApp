@@ -14,7 +14,7 @@ using System.Text;
 namespace TestApp.Views
 {
     [Activity(Label = "@string/recipies")]
-    public class RecipiesView : MvxActivity<RecipiesViewModel>
+    public class RecipiesView : BaseView<RecipiesViewModel>
     {
         protected override void OnCreate(Bundle savedInstanceState)
         {

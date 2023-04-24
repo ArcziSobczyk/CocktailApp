@@ -17,7 +17,7 @@ using Xamarin.Essentials;
 namespace TestApp.Views
 {
     [Activity(Label = "@string/funFact")]
-    public class FunFactView : MvxActivity<FunFactViewModel>
+    public class FunFactView : BaseView<FunFactViewModel>
     {
         protected override void OnCreate(Bundle savedInstanceState)
         {

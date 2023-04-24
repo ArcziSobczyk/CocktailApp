@@ -14,7 +14,7 @@ using System.Text;
 namespace TestApp.Views
 {
     [Activity(Label = "@string/recipe")]
-    public class CocktailView : MvxActivity<CocktailViewModel>
+    public class CocktailView : BaseView<CocktailViewModel>
     {
         protected override void OnCreate(Bundle savedInstanceState)
         {

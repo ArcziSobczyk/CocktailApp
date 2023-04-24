@@ -1,4 +1,10 @@
 <resources>
+
+
+	<string name="cocktailName">Nazwa</string>
+	<string name="cocktailIngredients">Składniki</string>
+	<string name="cocktailNote">Opis</string>
+	
     <string name="app_name">#CocktailApp</string>
     <string name="action_settings">Settings</string>
 	<string name="explore">Odkrywaj</string>

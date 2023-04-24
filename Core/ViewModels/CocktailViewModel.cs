@@ -16,7 +16,6 @@ namespace Core.ViewModels
             {
                 CocktailName = parameter.CocktailName,
                 CocktailDescription = parameter.CocktailDescription,
-                CocktailRecipe = parameter.CocktailRecipe,
                 CocktailIngredient1 = parameter.CocktailIngredient1,
                 CocktailIngredient2 = parameter.CocktailIngredient2,
                 CocktailIngredient3 = parameter.CocktailIngredient3,

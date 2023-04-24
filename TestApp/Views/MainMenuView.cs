@@ -8,7 +8,7 @@ using MvvmCross.Platforms.Android.Views;
 namespace TestApp.Views
 {
     [Activity(Label = "@string/app_name", Theme = "@style/AppTheme",  MainLauncher = true)]
-    public class MainMenuView : MvxActivity<MainMenuViewModel>
+    public class MainMenuView : BaseView<MainMenuViewModel>
     {
         protected override void OnCreate(Bundle savedInstanceState)
         {

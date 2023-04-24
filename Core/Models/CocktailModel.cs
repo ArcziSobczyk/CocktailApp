@@ -6,9 +6,9 @@ namespace Core.Models
 {
     public class CocktailModel : BaseModel
     {
+        public int ID { get; set; }
         public string CocktailName { get; set; }
         public string CocktailDescription { get; set; }
-        public string CocktailRecipe { get; set; }
         public string CocktailIngredient1 { get; set; }
         public string CocktailIngredient2 { get; set; }
         public string CocktailIngredient3 { get; set; }
