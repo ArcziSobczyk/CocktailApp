@@ -1,4 +1,5 @@
 ﻿using Core.Models;
+using Core.Services;
 using MvvmCross;
 using MvvmCross.Commands;
 using System;
@@ -15,8 +16,7 @@ namespace Core.ViewModels
             CocktailModel = new CocktailModel()
             {
                 CocktailName = parameter.CocktailName,
-                CocktailDescription = parameter.CocktailDescription,
-                CocktailRecipe = parameter.CocktailRecipe,
+                CocktailNote = parameter.CocktailNote,
                 CocktailIngredient1 = parameter.CocktailIngredient1,
                 CocktailIngredient2 = parameter.CocktailIngredient2,
                 CocktailIngredient3 = parameter.CocktailIngredient3,
@@ -53,7 +53,7 @@ namespace Core.ViewModels
         private bool ingredientFive;
         private bool ingredientSix;
 
-        public CocktailModel CocktailModel { get; set; }
+        public CocktailModel? CocktailModel { get; set; }
         public bool IngredientFour 
         { 
             get { return ingredientFour; }
@@ -84,7 +84,7 @@ namespace Core.ViewModels
         #endregion
 
         #region Commands
-        private IMvxCommand backCommand;
+        private IMvxCommand? backCommand;
         public IMvxCommand BackCommand => backCommand = backCommand ?? new MvxCommand(onBackPressed);
         #endregion
     }

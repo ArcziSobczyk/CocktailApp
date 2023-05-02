@@ -99,9 +99,9 @@ namespace Core.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Wypełnij szklankę typu short w kolejności - wódką, likierem i śmietanką / mlekiem. Gotowe!.
         /// </summary>
-        internal static string blackWhiteRussianRecipe {
+        internal static string blackWhiteRussianNote {
             get {
-                return ResourceManager.GetString("blackWhiteRussianRecipe", resourceCulture);
+                return ResourceManager.GetString("blackWhiteRussianNote", resourceCulture);
             }
         }
         
@@ -162,9 +162,9 @@ namespace Core.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Do shakera wlej wszystkie składniki oraz energicznie wstrząśnij. Przelej poprzez double-strain do schłodzonej koktajlówki..
         /// </summary>
-        internal static string cosmopolitanRecipe {
+        internal static string cosmopolitanNote {
             get {
-                return ResourceManager.GetString("cosmopolitanRecipe", resourceCulture);
+                return ResourceManager.GetString("cosmopolitanNote", resourceCulture);
             }
         }
         
@@ -216,9 +216,9 @@ namespace Core.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Do szklanki typu long wrzuć cząstki limonki, zgnieć mudlerem. Następnie zasyp szkło kostkami lodu, wlej rum i Coca-Colę..
         /// </summary>
-        internal static string cubaLibreRecipe {
+        internal static string cubaLibreNote {
             get {
-                return ResourceManager.GetString("cubaLibreRecipe", resourceCulture);
+                return ResourceManager.GetString("cubaLibreNote", resourceCulture);
             }
         }
         
@@ -279,9 +279,9 @@ namespace Core.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Wszystkie składniki wlej do shakera pełnego lodu i energicznie wstrząśnij. Tak przygotowany koktajl przelej poprzez double-strain do schłodzonego kieliszka koktajlowego..
         /// </summary>
-        internal static string daqiuiriRecipe {
+        internal static string daqiuiriNote {
             get {
-                return ResourceManager.GetString("daqiuiriRecipe", resourceCulture);
+                return ResourceManager.GetString("daqiuiriNote", resourceCulture);
             }
         }
         
@@ -333,9 +333,9 @@ namespace Core.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Składniki wlej do shakare i energicznie wstrząśnij. Tak przygotowany koktajl przelej do schłodzonego kieliszka koktajlowego poprzez double-strain..
         /// </summary>
-        internal static string espressoMartiniRecipe {
+        internal static string espressoMartiniNote {
             get {
-                return ResourceManager.GetString("espressoMartiniRecipe", resourceCulture);
+                return ResourceManager.GetString("espressoMartiniNote", resourceCulture);
             }
         }
         
@@ -396,9 +396,9 @@ namespace Core.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Wszystkie składniki należy wlać do shakera z lodem i energicznie wymieszać. Następnie przelać poprzez double-strain do dobrze schłodzonej koktajlówki..
         /// </summary>
-        internal static string manhattanRecipe {
+        internal static string manhattanNote {
             get {
-                return ResourceManager.GetString("manhattanRecipe", resourceCulture);
+                return ResourceManager.GetString("manhattanNote", resourceCulture);
             }
         }
         
@@ -459,9 +459,9 @@ namespace Core.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Do shakera wlej tequile, triple sec, sok z limonki i syrop cukrowy. Zawartość shakera przelej do schłodzonego kieliszka koktajlowego..
         /// </summary>
-        internal static string margharitaRecipe {
+        internal static string margharitaNote {
             get {
-                return ResourceManager.GetString("margharitaRecipe", resourceCulture);
+                return ResourceManager.GetString("margharitaNote", resourceCulture);
             }
         }
         
@@ -531,9 +531,9 @@ namespace Core.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Limonkę wyszorować, pokroić na ćwiartki i wrzucić do szklanki typu long drink Zasypać cukrem i dokładnie ugnieść. Następnie dodać listki mięty i znowu ugnieść. Do połowy wysokości szklanki dodać lód, a następnie rum i znów lód. Zamieszać. Na wierzch dodać wodę gazowaną i delikatnie zmieszać. Szklankę udekorować limonką i listkami mięty..
         /// </summary>
-        internal static string mohitoRecipe {
+        internal static string mohitoNote {
             get {
-                return ResourceManager.GetString("mohitoRecipe", resourceCulture);
+                return ResourceManager.GetString("mohitoNote", resourceCulture);
             }
         }
         
@@ -585,9 +585,9 @@ namespace Core.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Szklankę typu long zasyp kruszonym lodem. Wlej wódkę i sok z limonki oraz wymieszaj. Na koniec uzupełnij piwem imbirowym oraz kruszonym lodem..
         /// </summary>
-        internal static string moscowMuleRecipe {
+        internal static string moscowMuleNote {
             get {
-                return ResourceManager.GetString("moscowMuleRecipe", resourceCulture);
+                return ResourceManager.GetString("moscowMuleNote", resourceCulture);
             }
         }
         
@@ -648,9 +648,9 @@ namespace Core.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Gin, vermuth oraz Campari wlej do szklanicy pełnej lodu. Wymieszaj do czasu dobrego schłodzenia, następnie przelej zawartość do szklanki typu short pełnej lodu. Na koniec wyciśnij zest oraz wrzuć go do koktajlu..
         /// </summary>
-        internal static string negroniRecipe {
+        internal static string negroniNote {
             get {
-                return ResourceManager.GetString("negroniRecipe", resourceCulture);
+                return ResourceManager.GetString("negroniNote", resourceCulture);
             }
         }
         
@@ -711,9 +711,9 @@ namespace Core.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Do szklanicy barmańskiej pełnej lodu wlej bourbon, cukier oraz Angosturę. Tak przygotowany koktajl mieszaj do czasu aż składniki się nie połączą w jednolity płyn. Przelej do szklanki typu short pełnej lodu, następnie zaromatyzuj zestem z pomarańczy..
         /// </summary>
-        internal static string oldFashionedRecipe {
+        internal static string oldFashionedNote {
             get {
-                return ResourceManager.GetString("oldFashionedRecipe", resourceCulture);
+                return ResourceManager.GetString("oldFashionedNote", resourceCulture);
             }
         }
         
@@ -774,9 +774,9 @@ namespace Core.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Do shakera wlej wszystkie składniki oraz energicznie wstrząśnij. Przelej zawartość do szklanki typu hurricane i gotowe..
         /// </summary>
-        internal static string pinaColadaRecipe {
+        internal static string pinaColadaNote {
             get {
-                return ResourceManager.GetString("pinaColadaRecipe", resourceCulture);
+                return ResourceManager.GetString("pinaColadaNote", resourceCulture);
             }
         }
         
@@ -846,9 +846,9 @@ namespace Core.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Dodaj wszystkie składniki poza szampanem do shakera, wstrząśnij z lodem i przelej do kieliszka. Szampana podajemy osobno od drinka, w kieliszku do szotów. Ważnym jest, by poinformować konsumującego drinka, że obie jego części należy pić oddzielnie..
         /// </summary>
-        internal static string pornstarMartiniRecipe {
+        internal static string pornstarMartiniNote {
             get {
-                return ResourceManager.GetString("pornstarMartiniRecipe", resourceCulture);
+                return ResourceManager.GetString("pornstarMartiniNote", resourceCulture);
             }
         }
         
@@ -909,9 +909,9 @@ namespace Core.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Wódkę, likier oraz sok pomarańczowy wlej do szklanki typu hurricane lub long pełną lodu. Wymieszaj łyżką, następnie kilkoma dash&apos;ami wlej sok żurawinowy..
         /// </summary>
-        internal static string sexOnTheBeachRecipe {
+        internal static string sexOnTheBeachNote {
             get {
-                return ResourceManager.GetString("sexOnTheBeachRecipe", resourceCulture);
+                return ResourceManager.GetString("sexOnTheBeachNote", resourceCulture);
             }
         }
         
@@ -981,9 +981,9 @@ namespace Core.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Do pustego shakera wlej białko jaja i energicznie wstrząśnij przez około 10-15 sekund. Następnie zasyp shaker lodem i  dolej resztę składników po czym ponownie wstrząśnij zawartość. Tak przygotowany koktajl przelej do szklanki typu short wypełnionej kostkami lodu..
         /// </summary>
-        internal static string whiskySourRecipe {
+        internal static string whiskySourNote {
             get {
-                return ResourceManager.GetString("whiskySourRecipe", resourceCulture);
+                return ResourceManager.GetString("whiskySourNote", resourceCulture);
             }
         }
         

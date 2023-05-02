@@ -1,4 +1,5 @@
-﻿using MvvmCross.Commands;
+﻿using Core.Services;
+using MvvmCross.Commands;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -13,12 +14,13 @@ namespace Core.ViewModels
             NavigationService.Close(this);
         }
 
-        private IMvxCommand backPressedCommand;
-        private IMvxAsyncCommand addRecipeCommand;
-        public IMvxCommand BackPressedCommand => backPressedCommand = backPressedCommand ?? new MvxCommand(onBackPressed);
-        public IMvxAsyncCommand AddRecipeCommand => addRecipeCommand = addRecipeCommand ?? new MvxAsyncCommand(GoToAddRecipeCommand);
+        private IMvxCommand? backPressedCommand;
+        private IMvxAsyncCommand? addNoteCommand;
 
-        private async Task GoToAddRecipeCommand()
+        public IMvxCommand BackPressedCommand => backPressedCommand = backPressedCommand ?? new MvxCommand(onBackPressed);
+        public IMvxAsyncCommand AddNoteCommand => addNoteCommand = addNoteCommand ?? new MvxAsyncCommand(GoToAddNoteCommand);
+
+        private async Task GoToAddNoteCommand()
         {
             await NavigationService.Navigate<AddRecipeViewModel>();
         }

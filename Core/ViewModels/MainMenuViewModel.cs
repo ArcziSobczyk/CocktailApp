@@ -1,12 +1,6 @@
-﻿using Core.Intrefaces;
+﻿using Core.Services;
 using MvvmCross.Commands;
-using MvvmCross.ViewModels;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
-using System.Windows.Input;
 
 namespace Core.ViewModels
 {
@@ -18,10 +12,11 @@ namespace Core.ViewModels
         }
 
         #region Command
-        private IMvxAsyncCommand recipiesCommand;
-        private IMvxAsyncCommand funFactCommand;
-        private IMvxAsyncCommand ownRecipies;
-        private IMvxCommand exitCommand;
+        private IMvxAsyncCommand? recipiesCommand;
+        private IMvxAsyncCommand? funFactCommand;
+        private IMvxAsyncCommand? ownRecipies;
+        private IMvxCommand? exitCommand;
+
         public IMvxAsyncCommand RecipiesCommand => recipiesCommand = recipiesCommand ?? new MvxAsyncCommand(GoToRecipies);
         public IMvxAsyncCommand FunFactCommand => funFactCommand = funFactCommand ?? new MvxAsyncCommand(GoToFunFact);
         public IMvxAsyncCommand OwnRecipiesCommand => ownRecipies = ownRecipies ?? new MvxAsyncCommand(GoToOwnRecipies);

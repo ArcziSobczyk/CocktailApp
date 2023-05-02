@@ -129,7 +129,7 @@
   <data name="blackWhiteRussianIngredient3" xml:space="preserve">
     <value>30 ml śmietanki 30% / mleka (w wariancie White Russian)</value>
   </data>
-  <data name="blackWhiteRussianRecipe" xml:space="preserve">
+  <data name="blackWhiteRussianNote" xml:space="preserve">
     <value>Wypełnij szklankę typu short w kolejności - wódką, likierem i śmietanką / mlekiem. Gotowe!</value>
   </data>
   <data name="blackWhiteRussianTitle" xml:space="preserve">
@@ -150,7 +150,7 @@
   <data name="cosmopolitanIngredient4" xml:space="preserve">
     <value>5 ml soku z cytryny</value>
   </data>
-  <data name="cosmopolitanRecipe" xml:space="preserve">
+  <data name="cosmopolitanNote" xml:space="preserve">
     <value>Do shakera wlej wszystkie składniki oraz energicznie wstrząśnij. Przelej poprzez double-strain do schłodzonej koktajlówki.</value>
   </data>
   <data name="cosmopolitanTitle" xml:space="preserve">
@@ -168,7 +168,7 @@
   <data name="cubaLibreIngredient3" xml:space="preserve">
     <value>3 ćwiartki limonki</value>
   </data>
-  <data name="cubaLibreRecipe" xml:space="preserve">
+  <data name="cubaLibreNote" xml:space="preserve">
     <value>Do szklanki typu long wrzuć cząstki limonki, zgnieć mudlerem. Następnie zasyp szkło kostkami lodu, wlej rum i Coca-Colę.</value>
   </data>
   <data name="cubaLibreTitle" xml:space="preserve">
@@ -189,7 +189,7 @@
   <data name="daiquiriTitle" xml:space="preserve">
     <value>Daiquiri</value>
   </data>
-  <data name="daqiuiriRecipe" xml:space="preserve">
+  <data name="daqiuiriNote" xml:space="preserve">
     <value>Wszystkie składniki wlej do shakera pełnego lodu i energicznie wstrząśnij. Tak przygotowany koktajl przelej poprzez double-strain do schłodzonego kieliszka koktajlowego.</value>
   </data>
   <data name="espressoMartiniDescription" xml:space="preserve">
@@ -207,7 +207,7 @@
   <data name="espressoMartiniIngredient4" xml:space="preserve">
     <value>15 ml syropu cukrowego</value>
   </data>
-  <data name="espressoMartiniRecipe" xml:space="preserve">
+  <data name="espressoMartiniNote" xml:space="preserve">
     <value>Składniki wlej do shakare i energicznie wstrząśnij. Tak przygotowany koktajl przelej do schłodzonego kieliszka koktajlowego poprzez double-strain.</value>
   </data>
   <data name="espressoMartiniTitle" xml:space="preserve">
@@ -228,7 +228,7 @@
   <data name="manhattanIngredient3" xml:space="preserve">
     <value>2-3 krople Angostury</value>
   </data>
-  <data name="manhattanRecipe" xml:space="preserve">
+  <data name="manhattanNote" xml:space="preserve">
     <value>Wszystkie składniki należy wlać do shakera z lodem i energicznie wymieszać. Następnie przelać poprzez double-strain do dobrze schłodzonej koktajlówki.</value>
   </data>
   <data name="manhattanTitle" xml:space="preserve">
@@ -249,7 +249,7 @@
   <data name="margharitaIngredient4" xml:space="preserve">
     <value>10 ml syropu cukrowego</value>
   </data>
-  <data name="margharitaRecipe" xml:space="preserve">
+  <data name="margharitaNote" xml:space="preserve">
     <value>Do shakera wlej tequile, triple sec, sok z limonki i syrop cukrowy. Zawartość shakera przelej do schłodzonego kieliszka koktajlowego.</value>
   </data>
   <data name="margharitaTitle" xml:space="preserve">
@@ -273,7 +273,7 @@
   <data name="mohitoIngredient5" xml:space="preserve">
     <value>25 ml wody gazowanej</value>
   </data>
-  <data name="mohitoRecipe" xml:space="preserve">
+  <data name="mohitoNote" xml:space="preserve">
     <value>Limonkę wyszorować, pokroić na ćwiartki i wrzucić do szklanki typu long drink Zasypać cukrem i dokładnie ugnieść. Następnie dodać listki mięty i znowu ugnieść. Do połowy wysokości szklanki dodać lód, a następnie rum i znów lód. Zamieszać. Na wierzch dodać wodę gazowaną i delikatnie zmieszać. Szklankę udekorować limonką i listkami mięty.</value>
   </data>
   <data name="mohitoTitle" xml:space="preserve">
@@ -291,7 +291,7 @@
   <data name="moscowMuleIngredient3" xml:space="preserve">
     <value>20 ml soku z limonki</value>
   </data>
-  <data name="moscowMuleRecipe" xml:space="preserve">
+  <data name="moscowMuleNote" xml:space="preserve">
     <value>Szklankę typu long zasyp kruszonym lodem. Wlej wódkę i sok z limonki oraz wymieszaj. Na koniec uzupełnij piwem imbirowym oraz kruszonym lodem.</value>
   </data>
   <data name="moscowMuleTitle" xml:space="preserve">
@@ -312,7 +312,7 @@
   <data name="negroniIngredient4" xml:space="preserve">
     <value>zest ze skórki pomarańczy</value>
   </data>
-  <data name="negroniRecipe" xml:space="preserve">
+  <data name="negroniNote" xml:space="preserve">
     <value>Gin, vermuth oraz Campari wlej do szklanicy pełnej lodu. Wymieszaj do czasu dobrego schłodzenia, następnie przelej zawartość do szklanki typu short pełnej lodu. Na koniec wyciśnij zest oraz wrzuć go do koktajlu.</value>
   </data>
   <data name="negroniTitle" xml:space="preserve">
@@ -333,7 +333,7 @@
   <data name="oldFashionedIngredient4" xml:space="preserve">
     <value>zest ze skórki pomarańczy</value>
   </data>
-  <data name="oldFashionedRecipe" xml:space="preserve">
+  <data name="oldFashionedNote" xml:space="preserve">
     <value>Do szklanicy barmańskiej pełnej lodu wlej bourbon, cukier oraz Angosturę. Tak przygotowany koktajl mieszaj do czasu aż składniki się nie połączą w jednolity płyn. Przelej do szklanki typu short pełnej lodu, następnie zaromatyzuj zestem z pomarańczy.</value>
   </data>
   <data name="oldFashionedTitle" xml:space="preserve">
@@ -354,7 +354,7 @@
   <data name="pinaColadaIngredient4" xml:space="preserve">
     <value>splash mleka</value>
   </data>
-  <data name="pinaColadaRecipe" xml:space="preserve">
+  <data name="pinaColadaNote" xml:space="preserve">
     <value>Do shakera wlej wszystkie składniki oraz energicznie wstrząśnij. Przelej zawartość do szklanki typu hurricane i gotowe.</value>
   </data>
   <data name="pinaColadaTitle" xml:space="preserve">
@@ -378,7 +378,7 @@
   <data name="pornstarMartiniIngredient5" xml:space="preserve">
     <value>40 ml champagne</value>
   </data>
-  <data name="pornstarMartiniRecipe" xml:space="preserve">
+  <data name="pornstarMartiniNote" xml:space="preserve">
     <value>Dodaj wszystkie składniki poza szampanem do shakera, wstrząśnij z lodem i przelej do kieliszka. Szampana podajemy osobno od drinka, w kieliszku do szotów. Ważnym jest, by poinformować konsumującego drinka, że obie jego części należy pić oddzielnie.</value>
   </data>
   <data name="pornstarMartiniTitle" xml:space="preserve">
@@ -399,7 +399,7 @@
   <data name="sexOnTheBeachIngredient4" xml:space="preserve">
     <value>top-up sokiem żurawinowym</value>
   </data>
-  <data name="sexOnTheBeachRecipe" xml:space="preserve">
+  <data name="sexOnTheBeachNote" xml:space="preserve">
     <value>Wódkę, likier oraz sok pomarańczowy wlej do szklanki typu hurricane lub long pełną lodu. Wymieszaj łyżką, następnie kilkoma dash'ami wlej sok żurawinowy.</value>
   </data>
   <data name="sexOnTheBeachTitle" xml:space="preserve">
@@ -423,7 +423,7 @@
   <data name="whiskySourIngredient5" xml:space="preserve">
     <value>2-3 krople Angostury</value>
   </data>
-  <data name="whiskySourRecipe" xml:space="preserve">
+  <data name="whiskySourNote" xml:space="preserve">
     <value>Do pustego shakera wlej białko jaja i energicznie wstrząśnij przez około 10-15 sekund. Następnie zasyp shaker lodem i  dolej resztę składników po czym ponownie wstrząśnij zawartość. Tak przygotowany koktajl przelej do szklanki typu short wypełnionej kostkami lodu.</value>
   </data>
   <data name="whiskySourTitle" xml:space="preserve">

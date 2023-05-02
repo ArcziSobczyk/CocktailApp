@@ -1,5 +1,6 @@
 ﻿using Core.Models;
 using Core.Resources;
+using Core.Services;
 using MvvmCross.Commands;
 using System;
 using System.Collections.Generic;
@@ -17,21 +18,23 @@ namespace Core.ViewModels
 
         #region Commands
         private IMvxCommand backPressedCommand;
-        private IMvxAsyncCommand margharitaCommand;
-        private IMvxAsyncCommand mohitoCommand;
-        private IMvxAsyncCommand cubaLibreCommand;
-        private IMvxAsyncCommand pinaColadaCommand;
-        private IMvxAsyncCommand whiskySourCommand;
-        private IMvxAsyncCommand cosmopolitanCommand;
-        private IMvxAsyncCommand pornstarMartiniCommand;
-        private IMvxAsyncCommand negroniCommand;
-        private IMvxAsyncCommand espressoMartiniCommand;
-        private IMvxAsyncCommand moscowMuleCommand;
-        private IMvxAsyncCommand manhattanCommand;
-        private IMvxAsyncCommand daiquiriCommand;
-        private IMvxAsyncCommand oldFashionedCommand;
-        private IMvxAsyncCommand blackWhiteRussian;
-        private IMvxAsyncCommand sexOnTheBeach;
+        private IMvxAsyncCommand? margharitaCommand;
+        private IMvxAsyncCommand? mohitoCommand;
+        private IMvxAsyncCommand? cubaLibreCommand;
+        private IMvxAsyncCommand? pinaColadaCommand;
+        private IMvxAsyncCommand? whiskySourCommand;
+        private IMvxAsyncCommand? cosmopolitanCommand;
+        private IMvxAsyncCommand? pornstarMartiniCommand;
+        private IMvxAsyncCommand? negroniCommand;
+        private IMvxAsyncCommand? espressoMartiniCommand;
+        private IMvxAsyncCommand? moscowMuleCommand;
+        private IMvxAsyncCommand? manhattanCommand;
+        private IMvxAsyncCommand? daiquiriCommand;
+        private IMvxAsyncCommand? oldFashionedCommand;
+        private IMvxAsyncCommand? blackWhiteRussian;
+        private IMvxAsyncCommand? sexOnTheBeach;
+
+        
 
         public IMvxCommand BackPressedCommand => backPressedCommand = backPressedCommand ?? new MvxCommand(onBackPressed);
         public IMvxAsyncCommand MargharitaCommand => margharitaCommand = margharitaCommand ?? new MvxAsyncCommand(GoToMargharitaCommand);
@@ -62,7 +65,7 @@ namespace Core.ViewModels
                 CocktailIngredient2 = Recipies.margharitaIngredient2,
                 CocktailIngredient3 = Recipies.margharitaIngredient3,
                 CocktailIngredient4 = Recipies.margharitaIngredient4,
-                CocktailRecipe = Recipies.margharitaRecipe
+                CocktailNote = Recipies.margharitaNote
             });
         }
         private async Task GoToMohitoCommand()
@@ -76,7 +79,7 @@ namespace Core.ViewModels
                 CocktailIngredient3 = Recipies.mohitoIngredient3,
                 CocktailIngredient4 = Recipies.mohitoIngredient4,
                 CocktailIngredient5 = Recipies.mohitoIngredient5,
-                CocktailRecipe = Recipies.mohitoRecipe
+                CocktailNote = Recipies.mohitoNote
             });
         }
         private async Task GoToCubaLibreCommand()
@@ -88,7 +91,7 @@ namespace Core.ViewModels
                 CocktailIngredient1 = Recipies.cubaLibreIngredient1,
                 CocktailIngredient2 = Recipies.cubaLibreIngredient2,
                 CocktailIngredient3 = Recipies.cubaLibreIngredient3,
-                CocktailRecipe = Recipies.cubaLibreRecipe
+                CocktailNote = Recipies.cubaLibreNote
             });
         }
         private async Task GoToPinaColadaCommand()
@@ -101,7 +104,7 @@ namespace Core.ViewModels
                 CocktailIngredient2 = Recipies.pinaColadaIngredient2,
                 CocktailIngredient3 = Recipies.pinaColadaIngredient3,
                 CocktailIngredient4 = Recipies.pinaColadaIngredient4,
-                CocktailRecipe = Recipies.pinaColadaRecipe
+                CocktailNote = Recipies.pinaColadaNote
             });
         }
         private async Task GoToWhiskySourCommand()
@@ -115,7 +118,7 @@ namespace Core.ViewModels
                 CocktailIngredient3 = Recipies.whiskySourIngredient3,
                 CocktailIngredient4 = Recipies.whiskySourIngredient4,
                 CocktailIngredient5 = Recipies.whiskySourIngredient5,
-                CocktailRecipe = Recipies.whiskySourRecipe
+                CocktailNote = Recipies.whiskySourNote
             });
         }
         private async Task GoToCosmopolitanCommand()
@@ -128,7 +131,7 @@ namespace Core.ViewModels
                 CocktailIngredient2 = Recipies.cosmopolitanIngredient2,
                 CocktailIngredient3 = Recipies.cosmopolitanIngredient3,
                 CocktailIngredient4 = Recipies.cosmopolitanIngredient4,
-                CocktailRecipe = Recipies.cosmopolitanRecipe
+                CocktailNote = Recipies.cosmopolitanNote
             });
         }
         private async Task GoToPornstarMartiniCommand()
@@ -142,7 +145,7 @@ namespace Core.ViewModels
                 CocktailIngredient3 = Recipies.pornstarMartiniIngredient3,
                 CocktailIngredient4 = Recipies.pornstarMartiniIngredient4,
                 CocktailIngredient5 = Recipies.pornstarMartiniIngredient5,
-                CocktailRecipe = Recipies.pornstarMartiniRecipe
+                CocktailNote = Recipies.pornstarMartiniNote
             });
         }
         private async Task GoToNegroniCommand()
@@ -154,7 +157,7 @@ namespace Core.ViewModels
                 CocktailIngredient1 = Recipies.negroniIngredient2,
                 CocktailIngredient2 = Recipies.negroniIngredient3,
                 CocktailIngredient3 = Recipies.negroniIngredient4,
-                CocktailRecipe = Recipies.negroniRecipe
+                CocktailNote = Recipies.negroniNote
             });
         }
         private async Task GoToEspressoMartiniCommand()
@@ -167,7 +170,7 @@ namespace Core.ViewModels
                 CocktailIngredient2 = Recipies.espressoMartiniIngredient2,
                 CocktailIngredient3 = Recipies.espressoMartiniIngredient3,
                 CocktailIngredient4 = Recipies.espressoMartiniIngredient4,
-                CocktailRecipe = Recipies.espressoMartiniRecipe
+                CocktailNote = Recipies.espressoMartiniNote
             });
         }
         private async Task GoToMoscowMuleCommand()
@@ -179,7 +182,7 @@ namespace Core.ViewModels
                 CocktailIngredient1 = Recipies.moscowMuleIngredient1,
                 CocktailIngredient2 = Recipies.moscowMuleIngredient2,
                 CocktailIngredient3 = Recipies.moscowMuleIngredient3,
-                CocktailRecipe = Recipies.moscowMuleRecipe
+                CocktailNote = Recipies.moscowMuleNote
             });
         }
         private async Task GoToManhattanCommand()
@@ -191,7 +194,7 @@ namespace Core.ViewModels
                 CocktailIngredient1 = Recipies.manhattanIngredient1,
                 CocktailIngredient2 = Recipies.manhattanIngredient2,
                 CocktailIngredient3 = Recipies.manhattanIngredient3,
-                CocktailRecipe = Recipies.manhattanRecipe
+                CocktailNote = Recipies.manhattanNote
             });
         }
         private async Task GoToDaiquiriCommand()
@@ -203,7 +206,7 @@ namespace Core.ViewModels
                 CocktailIngredient1 = Recipies.daiquiriIngredient1,
                 CocktailIngredient2 = Recipies.daiquiriIngredient2,
                 CocktailIngredient3 = Recipies.daiquiriIngredient3,
-                CocktailRecipe = Recipies.daqiuiriRecipe
+                CocktailNote = Recipies.daqiuiriNote
             });
         }
         private async Task GoToOldFashionedCommand()
@@ -216,7 +219,7 @@ namespace Core.ViewModels
                 CocktailIngredient2 = Recipies.oldFashionedIngredient2,
                 CocktailIngredient3 = Recipies.oldFashionedIngredient3,
                 CocktailIngredient4 = Recipies.oldFashionedIngredient4,
-                CocktailRecipe = Recipies.oldFashionedRecipe
+                CocktailNote = Recipies.oldFashionedNote
             });
         }
         private async Task GoToBlackWhiteRussianCommand()
@@ -228,7 +231,7 @@ namespace Core.ViewModels
                 CocktailIngredient1 = Recipies.blackWhiteRussianIngredient1,
                 CocktailIngredient2 = Recipies.blackWhiteRussianIngredient2,
                 CocktailIngredient3 = Recipies.blackWhiteRussianIngredient3,
-                CocktailRecipe = Recipies.blackWhiteRussianRecipe
+                CocktailNote = Recipies.blackWhiteRussianNote
             });;
         }
         private async Task GoToSexOnTheBeachCommand()
@@ -241,7 +244,7 @@ namespace Core.ViewModels
                 CocktailIngredient2 = Recipies.sexOnTheBeachIngrecient2,
                 CocktailIngredient3 = Recipies.sexOnTheBeachIngredient3,
                 CocktailIngredient4 = Recipies.sexOnTheBeachIngredient4,
-                CocktailRecipe = Recipies.sexOnTheBeachRecipe
+                CocktailNote = Recipies.sexOnTheBeachNote
             });
         }
         #endregion

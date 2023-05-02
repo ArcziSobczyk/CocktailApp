@@ -1,7 +1,6 @@
 ﻿using Android.App;
 using Android.OS;
-using Android.Runtime;
-using AndroidX.AppCompat.App;
+using CocktailApp;
 using Core.ViewModels;
 using MvvmCross.Platforms.Android.Views;
 

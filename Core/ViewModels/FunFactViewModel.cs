@@ -1,4 +1,5 @@
-﻿using MvvmCross.Commands;
+﻿using Core.Services;
+using MvvmCross.Commands;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -13,7 +14,7 @@ namespace Core.ViewModels
             NavigationService.Close(this);
         }
 
-        private IMvxCommand backCommand;
+        private IMvxCommand? backCommand;
         public IMvxCommand BackCommand => backCommand = backCommand ?? new MvxCommand(onBackPressed);
     }
 }

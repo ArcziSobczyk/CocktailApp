@@ -88,14 +88,14 @@
                 app:MvxBind='Text CocktailModel.CocktailIngredient6; Visibility Visibility(IngredientSix)'/>
         </LinearLayout>
         <TextView
-            android:id="@+id/cocktailRecipe"
+            android:id="@+id/cocktailNote"
             android:layout_alignParentBottom="true"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="15dp"
             android:textSize="20dp"
             android:text="PRZEPIS"
-            app:MvxBind="Text CocktailModel.CocktailRecipe"/>
+            app:MvxBind="Text CocktailModel.CocktailNote"/>
     </RelativeLayout>
     <Button
         android:layout_width="match_parent"

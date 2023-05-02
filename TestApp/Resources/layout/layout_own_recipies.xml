@@ -18,7 +18,7 @@
             android:textAlignment="center"
             android:textSize="30dp"
             android:text="+"
-            app:MvxBind="Click AddRecipeCommand"/>
+            app:MvxBind="Click AddNoteCommand"/>
     </LinearLayout>
     <Button
         android:layout_width="match_parent"

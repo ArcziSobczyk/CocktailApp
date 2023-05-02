@@ -1,8 +1,6 @@
-﻿using MvvmCross.Commands;
+﻿using Core.Services;
+using MvvmCross.Commands;
 using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Core.ViewModels
 {
@@ -13,7 +11,21 @@ namespace Core.ViewModels
             NavigationService.Close(this);
         }
 
-        private IMvxCommand backPressedCommand;
+        private IMvxCommand? backPressedCommand;
+        private IMvxCommand? addRecipeCommand;
         public IMvxCommand BackPressedCommand => backPressedCommand = backPressedCommand ?? new MvxCommand(onBackPressed);
+        public IMvxCommand AddRecipeCommand => addRecipeCommand = addRecipeCommand ?? new MvxCommand(addRecipe);
+
+        private void addRecipe()
+        {
+            try
+            {
+                DatabaseService.CreateCocktailsTable();
+            }
+            catch (Exception ex)
+            {
+                // Handle exception
+            }
+        }
     }
 }

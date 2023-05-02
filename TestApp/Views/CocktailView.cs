@@ -1,19 +1,12 @@
 ﻿using Android.App;
-using Android.Content;
 using Android.OS;
-using Android.Runtime;
-using Android.Views;
-using Android.Widget;
+using CocktailApp;
 using Core.ViewModels;
 using MvvmCross.Platforms.Android.Views;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
 namespace TestApp.Views
 {
-    [Activity(Label = "@string/recipe")]
+    [Activity(Label = "@string/Note")]
     public class CocktailView : MvxActivity<CocktailViewModel>
     {
         protected override void OnCreate(Bundle savedInstanceState)

@@ -1,17 +1,9 @@
 ﻿using Android.App;
-using Android.Content;
 using Android.OS;
-using Android.Runtime;
-using Android.Views;
-using Android.Widget;
-using Core;
+using CocktailApp;
 using Core.ViewModels;
 using MvvmCross.Platforms.Android.Views;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Xamarin.Essentials;
 
 namespace TestApp.Views
@@ -22,20 +14,23 @@ namespace TestApp.Views
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
-            SetContentView(Resource.Layout.layout_fun_fact);
+            SetContentView(CocktailApp.Resource.Layout.layout_fun_fact);
             LoadButtons();
         }
 
         private void LoadButtons()
         {
-            var bartenderCocktailStuff = FindViewById(Resource.Id.bartenderCocktailStuff);
+            var bartenderCocktailStuff = FindViewById(CocktailApp.Resource.Id.bartenderCocktailStuff);
             bartenderCocktailStuff.Click += BartenderCocktailStuff_Click;
 
-            var bartenderStuff = FindViewById(Resource.Id.mustHaveStuff);
+            var bartenderStuff = FindViewById(CocktailApp.Resource.Id.mustHaveStuff);
             bartenderStuff.Click += BartenderStuff_Click;
 
-            var mostImportantRecipies = FindViewById(Resource.Id.mostImportantIngredients);
+            var mostImportantRecipies = FindViewById(CocktailApp.Resource.Id.mostImportantIngredients);
             mostImportantRecipies.Click += MostImportantRecipies_Click;
+
+            var instagramInspiration = FindViewById(CocktailApp.Resource.Id.instagramInspiration);
+            instagramInspiration.Click += InstagramInspiration_Click;
         }
 
         private async void BartenderCocktailStuff_Click(object sender, EventArgs e)
@@ -54,6 +49,12 @@ namespace TestApp.Views
         private async void MostImportantRecipies_Click(object sender, EventArgs e)
         {
             string uri = "https://www.absolutdrinks.com/pl/drinks/collection/classic-cocktails/";
+            await Browser.OpenAsync(uri, BrowserLaunchMode.SystemPreferred);
+        }
+
+        private async void InstagramInspiration_Click(object sender, EventArgs e)
+        {
+            string uri = "https://www.instagram.com/notjustabartender/";
             await Browser.OpenAsync(uri, BrowserLaunchMode.SystemPreferred);
         }
     }
